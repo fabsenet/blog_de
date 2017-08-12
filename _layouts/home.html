@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    {% for post in site.posts %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+          
+            <header class="post-header">
+                <a class="post-link" href="{{ post.url | relative_url }}">
+              <h2 class="post-title" itemprop="name headline">{{ post.title | escape }}</h2>
+                </a>
+              {% include post-meta.html date=post.date author=post.author content=post.content %}
+            </header>
+          
+            <div class="post-content" itemprop="articleBody">
+              {{ post.excerpt }} 
+              <a href="{{ post.url | relative_url }}">weiterlesen…</a>
+            </div>
+        </article>
+        <hr />
+    {% endfor %}
+
+  <p class="rss-subscribe">Abonniere diesen Blog <a href="{{ "/feed.xml" | relative_url }}">via RSS Feed</a></p>
+
+</div>

@@ -1,0 +1,10 @@
+<p class="post-meta">
+📅 <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    {{ include.date | date: date_format }}
+</time>
+{% if include.author %}
+    • 👤 <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ include.author }}</span></span>
+{% endif %}
+    • 🕔 {{ include.content | reading_time }}
+</p>
