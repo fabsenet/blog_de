@@ -30,7 +30,7 @@ email: fabse@fabse.net
 lang: de
 author: Fabian Wetzel
 description: > # this means to ignore newlines until "baseurl:"
-  Dieser Blob begleitet textuell meinen YouTube-Kanal und bietet mehr Inhalte sowie aktualisierte Inhalte, sofern notwendig.
+  Dieser Blog begleitet textuell meinen YouTube-Kanal und bietet weitere Inhalte sowie aktualisierte Inhalte, sofern notwendig. Reinlesen lohnt sich.
 
 baseurl: "/de" # the subpath of your site, e.g. /blog
 url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http://example.com
