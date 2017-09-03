@@ -16,5 +16,16 @@
       (d.head || d.body).appendChild(s);
     })();
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  <noscript>Bitte aktiviere JavaScript, da sonst keine Kommentare angezeigt werden können. <a href="https://disqus.com/?ref_noscript" rel="nofollow">Kommentare unterstützt durch Disqus.</a></noscript>
+  {% else %}
+
+  <h1 style="color:red">Disqus Kommentare in Entwicklungsmodus nicht verfügbar</h1>
+  <div style="border: 1px solid red;margin: 5px; padding: 40px;">
+    <ul>
+      <li>this.page.url = '{{ page.url | absolute_url }}';</li>
+      <li>this.page.identifier = '{{page.url | absolute_url }}';</li>
+      <li>s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';</li>
+  </div>
+
+
 {% endif %}

@@ -25,14 +25,14 @@
 # build for production:
 # bash -c "JEKYLL_ENV=production jekyll build"
 
-title: Fabse.net - Heimwerken, Heimkino und Nerdstuff
+title: Fabse.net - Elektronik, Heimkino, Heimwerken
 email: fabse@fabse.net
 lang: de
 author: Fabian Wetzel
 description: > # this means to ignore newlines until "baseurl:"
-  Dieser Blog begleitet textuell meinen YouTube-Kanal und bietet weitere Inhalte sowie aktualisierte Inhalte, sofern notwendig. Reinlesen lohnt sich.
+  Dieser Blog begleitet textuell meinen YouTube-Kanal und bietet weitere Inhalte sowie aktualisierte Inhalte, sofern notwendig.
 
-baseurl: "/de" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -42,8 +42,12 @@ url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http
 minima:
   date_format: "%e. %B %Y"
 
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title/
+
 google_analytics: UA-34726227-3
+
+disqus:
+  shortname: fabsenet
 
 # Build settings
 markdown: kramdown
@@ -55,11 +59,16 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.txt
+  - push.ps1
+
+include:
+  - .well-known
