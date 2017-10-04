@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry PI DIY Serie: 01: Einführung, Installation Raspbian und Installation Processing!"
-date:   2017-09-24 16:14:39 +0200
+date:   2017-10-04 21:14:39 +0200
 categories: Raspberry-PI-DIY
 author: Fabian
 permalink: /:categories/:title/
