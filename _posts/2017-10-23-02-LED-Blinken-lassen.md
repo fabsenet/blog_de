@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  "Raspberry PI DIY Serie: 02: LEDs müssen blinken!"
-date:   2017-10-20 01:14:39 +0200
+date:   2017-10-23 18:00:00 +0200
 categories: Raspberry-PI-DIY
 author: Fabian
 permalink: /:categories/:title/
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh5dHIY5I4k" frameborder="0" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
    <br />Im zweiten Teil der jetzt schon legendären Tutorialserie geht es darum, eine LED blinken zu lassen. Schau dir das Video an oder
 ---
 # Eine LED muss blinken!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
 
 Das Ziel für die erste richtige *Bastelarbeit* soll eine LED sein, die mittels des Raspberry PI und einem selbst geschriebenen Programm darauf zum Blinken gebracht wird. Eine blinkende LED als solches ist jetzt noch nicht super überragend, aber es wird viel Wissen benötigt, worauf spätere Lektionen dann aufbauen werden.
 
@@ -17,7 +19,7 @@ Wie schon in der Einleitung erwähnt, habe ich das [Freenove Ultimate Starter Ki
 
 # Logische Schaltung
 
-Noch geht es ja vorallem um die Art und Weise, wie die Testschaltung aufgebaut ist, daher ist die eigentliche Schaltung vergleichsweise einfach. Es gibt eine Stromquelle und eine LED. Die Stromquelle ist in dem Fall der GPIO Pin 17 des Raspberrys selbst, da er für eine LED genug Leistung zur Verfügung stellen kann. **Achtung:** Will man andere Verbraucher oder mehrere LEDs betreiben, so geht das nicht mehr direkt über den Raspberry! Jedenfalls muss noch der Strom begrenzt werden, der durch die LED fließt, da eine LED dies nicht von alleine tut. Das Bastelset hat nur 2 verschiedene Widerstandsarten dabei, beide gehen, sofern man aber die LED leuchten sehen will, sollte man die 220 Ω (Ohm) wählen. Man kann den nötigen Widerstand aber auch errechnen.
+Noch geht es ja vor allem um die Art und Weise, wie die Testschaltung aufgebaut ist, daher ist die eigentliche Schaltung vergleichsweise einfach. Es gibt eine Stromquelle und eine LED. Die Stromquelle ist in dem Fall der GPIO Pin 17 des Raspberrys selbst, da er für eine LED genug Leistung zur Verfügung stellen kann. **Achtung:** Will man andere Verbraucher oder mehrere LEDs betreiben, so geht das nicht mehr direkt über den Raspberry! Jedenfalls muss noch der Strom begrenzt werden, der durch die LED fließt, da eine LED dies nicht von alleine tut. Das Bastelset hat nur drei verschiedene Widerstandsarten dabei. Alle sind hoch genug, sofern man aber die LED leuchten sehen will, sollte man die 220 Ω (Ohm) wählen. Man kann den nötigen Widerstand aber auch errechnen.
 
 ![Schaltung](/assets/pi-diy/2/pi_diy_02_Blinking_LED.png)
 
@@ -52,7 +54,7 @@ Der minimale Widerstand, um weder den Raspberry PI noch die LED zu überlasten b
 
 # Schaltung tatsächlich zusammenstecken
 
-*Bevor du anfängst, die Schaltung zu bauen, stelle bitte sicher, dass du den PI vom Strom trennst. Das dient weniger deiner Sicherheit als der Sicherheit des PIs. Die Betriebsspannung von 5V des PIs ist für den Menschen ungefährlich, solltest du beim Bauen aber einen Kurzschluss verursachen, kann dies deinen PI zerstören und das willst du ja sicherlich nicht?*
+*Bevor du anfängst, die Schaltung zu bauen, stelle bitte sicher, dass du den PI vom Strom trennst. Das dient weniger deiner Sicherheit als der Sicherheit des PIs. Die Betriebsspannung von 5V des PIs ist für den Menschen ungefährlich, solltest du beim Bauen aber einen Kurzschluss verursachen, kann dies deinen PI zerstören und das willst du ja sicherlich nicht, oder?*
 
 Im Mittelpunkt der Schaltung steht vor allem das Steckbrett:
 
@@ -60,7 +62,7 @@ Im Mittelpunkt der Schaltung steht vor allem das Steckbrett:
 
 Ein Steckbrett ist super geeignet, da man hiermit Schaltungen sehr schnell zusammenstecken kann. Außerdem muss man nicht Löten. Das spart Zeit und man ist auch flexibler. Auf dem Bild habe ich rote Rechtecke als farbliche Überlagerungen gemalt. Alle Löcher innerhalb eines Rechtecks sind leitend verbunden. Ich denke, das Muster sollte klar sein, auch wenn ich nicht alle Rechtecke gemalt habe.
 
-Das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T) enthält nun nicht nur das Steckbrett sondern auch einen Aufsatz, der auf einfache Art und Weise ein *Weiterleiten* des GPIO Anschlusses des Raspberrys erlaubt. Den Adapter selbst steckt man einfach auf das Steckbrett. Dann muss man nur noch das Flachbandkabel mit dem Adapter und dem PI verbinden. Der Adapter hat eine Aussparung, so dass man das Kabel hier nicht verdreht aufsetzen kann. Auf der Seite des PIs kann man das Kabel aber tatsächlich falsch aufsetzen. Hier hilft das folgende Foto:
+Das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T) enthält nun nicht nur das Steckbrett, sondern auch einen Aufsatz, der auf einfache Art und Weise ein *Weiterleiten* des GPIO Anschlusses des Raspberrys erlaubt. Den Adapter selbst steckt man einfach auf das Steckbrett. Dann muss man nur noch das Flachbandkabel mit dem Adapter und dem PI verbinden. Der Adapter hat eine Aussparung, so dass man das Kabel hier nicht verdreht aufsetzen kann. Auf der Seite des PIs kann man das Kabel aber tatsächlich falsch aufsetzen. Hier hilft das folgende Foto:
 
 ![Raspberry PI3 mit GPIO Flachbandkabel](/assets/pi-diy/2/raspi_gpio_kabel.jpg)
 
@@ -70,15 +72,15 @@ Die restliche Schaltung kann man auf Basis des ersten Fotos aufbauen. Wichtig is
 
 # Programmieren
 
-In [Teil 1 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-04-01 Einführung,Installation Raspbian,Installation Processing %}) haben wir ja Processing installiert und unser erstes Testprogramm geschrieben. Jetzt nutzen wir es zum Schalten zeitlich gesteuerten An- und Ausschalten des GPIO Pins 17. Außerdem soll das Fenster gleichzeitig entweder Rot oder Schwarz sein. Dies sollte bei der eventuell nötigen Fehlersuche helfen.
+In [Teil 1 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-04-01 Einführung,Installation Raspbian,Installation Processing %}) haben wir ja Processing installiert und unser erstes Testprogramm geschrieben. Jetzt nutzen wir es zum Schalten zeitlich gesteuerten An- und Ausschalten des GPIO Pins 17. Außerdem soll das Fenster gleichzeitig entweder rot oder schwarz sein. Dies sollte bei der eventuell nötigen Fehlersuche helfen.
 
 ## Die GPIO Funktionen
 
-Die GPIO Funktionen sind alle im Namensraum `processing.io`enthalten, dementsprechend muss man den zuerst mit dem Kommando `import processing.io.*;` importieren, um sie nutzen können. Um flexibel sein zu können beim Ändern der Schaltung, merke ich mir in einer einzigen globalen Variablen, welchen GPIO Pin ich genau verwendet habe. Einmalig muss ich diesen Pin auf `Output` schalten, da dies nicht der Standard ist. Das mache ich mit `GPIO.pinMode(ledPin, GPIO.OUTPUT);`. Will ich nun den Pin eine Spannung ausgeben lassen, verwendet man digitalWrite: `GPIO.digitalWrite(ledPin, GPIO.HIGH);`. Das gleiche Kommando mit `LOW` statt `HIGH` setzt die Ausgabespannung auf 0V.
+Die GPIO Funktionen sind alle im Namensraum `processing.io` enthalten, dementsprechend muss man den zuerst mit dem Kommando `import processing.io.*;` importieren, um sie nutzen können. Um flexibel sein zu können beim Ändern der Schaltung, merke ich mir in einer globalen Variablen, welchen GPIO Pin ich genau verwendet habe. Einmalig muss ich diesen Pin auf `Output` schalten, da dies nicht der Standard ist. Das mache ich mit `GPIO.pinMode(ledPin, GPIO.OUTPUT);`. Will ich nun den Pin eine Spannung ausgeben lassen, verwendet man digitalWrite: `GPIO.digitalWrite(ledPin, GPIO.HIGH);`. Das gleiche Kommando mit `LOW` statt `HIGH` setzt die Ausgabespannung auf 0V.
 
 ## Fensterfläche zeichnen
 
-Außerdem soll ja auch das Fenster gezeichnet werden. Die Funktion `background(...)` gewährleistet das. Sie erwartet eine Farbangaben, z.B. in RGB. Um die LED übrigens nicht zu schnell zu schalten, greifen wir hier auf einen Trick zurück. Die Funktion `frameRate()` stellt ein, mit wie vielen Bildern pro Sekunde die Anwendung gezeichnet werden soll. Wir geben hier nur eine `1` an. Das bedeutet, dass unsere Anwendung nur einmal pro Sekunde gezeichnet wird. Der aktuelle Zustand der LED wird als `boolean` gehalten und bei jedem Zechnen geändert. Das führt dann zum Blinken.
+Außerdem soll ja auch das Fenster gezeichnet werden. Die Funktion `background(...)` gewährleistet das. Sie erwartet eine Farbangabe, z.B. in RGB. Um die LED übrigens nicht zu schnell zu schalten, greifen wir hier auf einen Trick zurück. Die Funktion `frameRate()` stellt ein, mit wie vielen Bildern pro Sekunde die Anwendung gezeichnet werden soll. Wir geben hier nur eine `1` an. Das bedeutet, dass unsere Anwendung nur einmal pro Sekunde gezeichnet wird. Der aktuelle Zustand der LED wird als `boolean` gehalten und bei jedem Zechnen geändert. Das führt dann zum Blinken.
 
 ## Die speziellen Methoden setup() und draw()
 
@@ -115,6 +117,6 @@ Falls du ungeklärte Fragen zum Quelltext hast, kannst du in die [Referenz](http
 
 # Freuen und weiterführende Aufgabe
 
-Wenn du es bis hier hin geschafft hast und auch richtig mitgemacht hast, dann spürst du jetzt hoffentlich auch das Gefühl, dass du was richtiges erschaffen hast! Freue dich darüber!
+Wenn du es bis hier hin geschafft hast und auch richtig mitgemacht hast, dann spürst du jetzt hoffentlich auch das Gefühl, dass du was Richtiges erschaffen hast! Freue dich darüber!
 
 Du willst mehr? Versuche eine zweite LED an einen weiteren GPIO Pin anzuschließen und lasse sie abwechselnd blinken, oder in einer Form von Muster!
