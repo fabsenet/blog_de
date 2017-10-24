@@ -38,16 +38,16 @@ Gesucht: Größe des Vorwiderstands.
 Um nun den nötigen Widerstand zu bestimmen, benutzen wir die Standardformel `R=U/I`. Dabei ist `U` die Spannung, die über dem Widerstand abfällt. Die Summe aller Spannungen in einem Stromkreis muss `0` ergeben, daher gibt:
 
 ```math
-    3,3V = U + 2V
-       U = 1,3V
+3,3V = U + 2V
+    U = 1,3V
 ```
 
 jetzt muss man nur noch die Werte einsetzen:
 
 ```math
-    R = U / I
-    R = 1,3V / 0,016A
-    R = 81,25 Ω
+R = U / I
+R = 1,3V / 0,016A
+R = 81,25 Ω
 ```
 
 Der minimale Widerstand, um weder den Raspberry PI noch die LED zu überlasten beträgt demnach 81Ω. Wir verwenden ja 220Ω, es besteht also keine Gefahr für unsere Bauteile.
