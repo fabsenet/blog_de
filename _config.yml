@@ -40,7 +40,7 @@ url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%e. %B %Y"
+  date_format: "%e.%m.%Y"
 
 permalink: /:categories/:year/:month/:day/:title/
 
