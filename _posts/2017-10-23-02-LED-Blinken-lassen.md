@@ -3,7 +3,7 @@ layout: post
 title:  "Raspberry PI DIY Serie: 02: LEDs müssen blinken!"
 date:   2017-10-23 18:00:00 +0200
 categories: Raspberry-PI-DIY
-author: Fabian
+author: Fabian Wetzel
 permalink: /:categories/:title/
 excerpt: >
    <iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
