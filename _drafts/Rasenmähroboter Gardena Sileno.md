@@ -30,6 +30,8 @@ Wo man aber etwas mit zu tun hat, ist das Installieren. Diese Arbeit ist zum Gl�
 
 Zuerst sollte man aber einen Blick in die Anleitung werfen und auf Basis der Gegebenheiten des eigenen Gartens die Lage der Ladestation und der Begrenzungsdrähte planen.
 
+Bevor ich losgelegt hatte, habe ich mit einem normalen Rasenmäher nochmal alles auf 3cm runter gemäht, so dass der neue Roboter einen guten Start hat.
+
 # Kabel verlegen 💪😓
 
 Wenn der Plan gemacht ist, wo die Drähte sein sollen, geht es ans Verlegen. Ich hatte bei der geplanten Position der Ladestation begonnen und mich dann Meter für Meter am Rand entlang gearbeitet. Der Draht muss dabei 35cm entfernt von Kanten verlegt werden, wo der Rasenmäher gegen fahren könnte oder ggf. runterfallen könnte. Wenn es sich jedoch um etwas handelt, wo der Rasenmäher drauf fahren kann, wie eine Terrasse, dann reichen 10cm. Der Vorteil ist hier, dass keine Graskante entsteht, die man nacharbeiten muss.
