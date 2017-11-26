@@ -5,21 +5,22 @@ date:   2017-11-06 15:10:39 +0200
 categories: Videotest
 author: Fabian Wetzel
 excerpt: >
-   <iframe width="560" height="315" src="data:text/html;charset=utf-8;base64,PGJvZHkgc3R5bGU9ImJhY2tncm91bmQ6cmVkO2ZvbnQ6MTUzcHggY29uc29sYXM7Ij5WSURFTzwvYm9keT4=" frameborder="0" allowfullscreen></iframe>
-   <br />todo
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/AeMER0vfAZM" frameborder="0" allowfullscreen></iframe>
+   <br />
+   Mein Rasenmähroboter: Vorgestellt in einem ehrlichen Review mit Erfahrungen aus erster Hand über eine ganze Saison. Schau das Video oder ließ einfach weiter!
 
 ---
 # Wer keine Lust auf Lesen hat, der schaut das Video! 🙄
 
-<iframe width="560" height="315" src="data:text/html;charset=utf-8;base64,PGJvZHkgc3R5bGU9ImJhY2tncm91bmQ6cmVkO2ZvbnQ6MTUzcHggY29uc29sYXM7Ij5WSURFTzwvYm9keT4=" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AeMER0vfAZM" frameborder="0" allowfullscreen></iframe>
 
 [GARDENA 19060-60 smart SILENO Mähroboter](http://amzn.to/2iB8tJ9)
 
 # Ich lasse jetzt mähen 😎
 
-Das hier soll ein ehrliches Review sein und deshalb fange ich gleich mit dem Wichtigsten an, dem Preis. Rasenmähroboter allgemein sind schon Luxus mit einem Preis von ca. 600€ an aufwärts. Dieser Rasenmäher kostet aktuell [<span title="Preis vom 06.11.2017 // amazon.de">1348€</span>](http://amzn.to/2iB8tJ9) und ist damit schon in der Premiumklasse, aber er liefert auch, was er verspricht.
+Das hier soll ein ehrliches Review sein und deshalb fange ich gleich mit dem Wichtigsten an: Dem Preis. Rasenmähroboter allgemein sind schon Luxus mit einem Preis von ca. 600€ an aufwärts. Dieser Rasenmäher kostet aktuell [<span title="Preis vom 26.11.2017 // amazon.de">1348€</span>](http://amzn.to/2iB8tJ9) und ist damit schon in der Premiumklasse, aber er liefert auch, was er verspricht.
 
-Ich habe vorallem wegen des Preises lange mit mir selbst gehadert, ob ich kaufen soll, aber seit dem habe ich es nicht eine Sekunde bereut, denn was man sich hier kauft, ist freie Zeit. Man kauft sich den Luxus, nicht jede Woche unter dem Druck zu stehen, mähen zu müssen.
+Ich habe vorallem wegen des Preises lange mit mir selbst gehadert, ob ich kaufen soll, aber seit dem habe ich es nicht eine Sekunde bereut, denn was man sich hier kauft, ist _freie Zeit_. Man kauft sich den Luxus, nicht jede Woche unter dem Druck zu stehen, mähen zu müssen.
 
 Wo man aber etwas mit zu tun hat, ist das Installieren. Diese Arbeit ist zum Glück nur einmal nötig. Man muss
 
