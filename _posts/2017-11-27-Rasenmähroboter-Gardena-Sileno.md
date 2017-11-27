@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GARDENA 19060-60 smart SILENO Mähroboter"
-date:   2017-11-06 15:10:39 +0200
+date:   2017-11-27 20:59:39 +0200
 categories: Videotest
 author: Fabian Wetzel
 excerpt: >
@@ -59,7 +59,7 @@ Das eigentliche Mähen funktioniert so reibungslos, dass man dazu fast gar nicht
 
 # Meine Langzeiterfahrung ist äußerst positiv ⏰🌈
 
-Alles in allem, freue ich mich jeden Tag mehr über *Robbby*. Am Anfang war da noch der hohe Preis und die Ungewissheit, ob das was taugt. Dann folgte ein anstrengendes Tageswerk der Erstinstallation. Seit dem kann ich mich aber jeden Tag darüber freuen, wie schön gepflegt und dicht der Rasen ist und die Freiheit genießen, lieber auf dem Rasen zu liegen statt ihr bearbeiten zu müssen. Der **Freizeitgewinn** ist wirklich das Allerbeste an dem Mäher!
+Alles in allem, freue ich mich jeden Tag mehr über *Robbby*. Am Anfang war da noch der hohe Preis und die Ungewissheit, ob das was taugt. Dann folgte ein anstrengendes Tageswerk der Erstinstallation. Seit dem kann ich mich aber jeden Tag darüber freuen, wie schön gepflegt und dicht der Rasen ist und die Freiheit genießen, lieber auf dem Rasen zu liegen statt ihn bearbeiten zu müssen. Der **Freizeitgewinn** ist wirklich das Allerbeste an dem Mäher!
 
 Außerdem ist der Mäher relativ unempfindlich, was das Wetter betrifft. Er mäht auch bei Regen klaglos. Gelegentlich hatte ich ihn bei stärkerem Regen in die Garage geschickt (per App!) aber nötig ist es meiner Meinung nach nicht. Es war eher "Mitleid" mit dem kleinen mechanischen Familienmitglied.
 
