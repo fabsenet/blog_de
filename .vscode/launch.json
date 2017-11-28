@@ -11,6 +11,14 @@
             "script": "bash",
             "args": ["-c \"jekyll serve --future --drafts\""],
             "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "Build for PROD",
+            "script": "bash",
+            "args": ["-c \"JEKYLL_ENV=production jekyll build\""],
+            "cwd": "${workspaceRoot}"
         }
     ]
 }
