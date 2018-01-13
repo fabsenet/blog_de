@@ -17,7 +17,7 @@
 # Commands
 
 # serve local:
-# bash -c "jekyll serve --future --drafts"
+# bash -c "jekyll serve --future --drafts --livereload"
 
 # build for development:
 # bash -c "jekyll build --future"
@@ -40,7 +40,7 @@ url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%e.%m.%Y"
+  date_format: "%d.%m.%Y"
 
 permalink: /:categories/:year/:month/:day/:title/
 
