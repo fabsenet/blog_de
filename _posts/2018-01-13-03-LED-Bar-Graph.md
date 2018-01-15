@@ -106,12 +106,12 @@ void draw()
         if (mouseX > 25+60*i)
         {
             fill(255, 0, 0);
-            GPIO.digitalWrite(leds[i], GPIO.LOW);
+            GPIO.digitalWrite(leds[i], GPIO.HIGH);
         }
         else
         {
             fill(255, 255, 255);
-            GPIO.digitalWrite(leds[i], GPIO.HIGH);
+            GPIO.digitalWrite(leds[i], GPIO.LOW);
         }
         rect(25+60*i, 90, 50, 180);
     }
