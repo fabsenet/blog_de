@@ -30,7 +30,7 @@ In dieser Schaltung benutze ich den Raspberry nur als Stromquelle, denn ich nutz
 
 # Schaltung aufbauen
 
-Die komplette Schaltung ist etwas grüßer als die aus dem zweiten Teil, aber eigentlich nicht komplizierter. Ich verbinde zuerst GND des PIs mit der blauen Schiene des Steckbretts. Von dort mit jeweils einem Vorwiderstand mit einem Pin des LED Bar Graphs. Von der anderen Seite des LED Bar Graphs verbinde ich jeden PIN direkt mit einem GPIO Anschluss des PIs. auf dem Adapter des Steckbretts sind die Pins ja benannt und ich wähle einfach die, wo GPIO drauf steht und dann unter denen einfach diejenigen, die am nahesten dran sind. Die Pinnummern in der richtigen Reihenfolge brauchen wir später beim Programmieren, man kann die also schon mal aufschreiben. Meine komplette Schaltung sieht dann so aus:
+Die komplette Schaltung ist etwas größer als die aus dem zweiten Teil, aber eigentlich nicht komplizierter. Ich verbinde zuerst GND des PIs mit der blauen Schiene des Steckbretts. Von dort mit jeweils einem Vorwiderstand mit einem Pin des LED Bar Graphs. Von der anderen Seite des LED Bar Graphs verbinde ich jeden PIN direkt mit einem GPIO Anschluss des PIs. auf dem Adapter des Steckbretts sind die Pins ja benannt und ich wähle einfach die, wo GPIO drauf steht und dann unter denen einfach diejenigen, die am nahesten dran sind. Die Pinnummern in der richtigen Reihenfolge brauchen wir später beim Programmieren, man kann die also schon mal aufschreiben. Meine komplette Schaltung sieht dann so aus:
 
 ![Komplette Schaltung mit dem LED Bar Graph](/assets/pi-diy/3/bar_graph_komplette_schaltung.jpg)
 
