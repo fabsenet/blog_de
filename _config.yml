@@ -24,6 +24,7 @@
 
 # build for production:
 # bash -c "JEKYLL_ENV=production jekyll build"
+# bash -c "JEKYLL_ENV=production jekyll build"; .\push.ps1
 
 title: Fabse.net - Elektronik, Heimkino, Heimwerken
 email: fabse@fabse.net
