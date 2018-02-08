@@ -26,6 +26,21 @@
 # bash -c "JEKYLL_ENV=production jekyll build"
 # bash -c "JEKYLL_ENV=production jekyll build"; .\push.ps1
 
+
+# Install everything for windows 10
+
+# - git, code, ...
+# - Windows Features: +Windows-Subsystem for linux
+# - Windows Store: +Ubuntu ( https://www.microsoft.com/store/productId/9NBLGGH4MSV6 )
+# - start ubuntu, wait for initial setup, follow user setup
+# - update packages: sudo apt-get update -y && sudo apt-get upgrade -y
+# - install jekyll https://jekyllrb.com/docs/windows/
+# - gem install jekyll fails? try 
+#      sudo apt install clang make ruby-dev libffi-dev
+#      sudo gem install ffi
+# - winscp is needed for pushing to production: choco install winscp
+# - create winscp stored session
+
 title: Fabse.net - Elektronik, Heimkino, Heimwerken
 email: fabse@fabse.net
 lang: de
