@@ -5,7 +5,7 @@ categories: ESP8266
 author: Fabian Wetzel
 excerpt: >
    <iframe width="560" height="315" src="https://www.youtube.com/embed/F6jAs4W8nn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <br />todo🦆💥
+   <br />ESP8266 D1 mini mit WLAN und allem und dabei ist er sooo klein! Erstmal geht es nur um das Setup und ein erstes Programmieren!
 
 ---
 # Warum jetzt auf einmal der ESP8266?
