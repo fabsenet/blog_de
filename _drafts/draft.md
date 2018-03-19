@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Das ist der Titel des Posts in der Übersicht
-date:   2017-11-06 15:09:39 +0200
 categories: Genau_Eine_Kategorie🦆💥
 author: Fabian Wetzel
 excerpt: >
