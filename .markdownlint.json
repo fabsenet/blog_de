@@ -6,7 +6,7 @@
     },
     "no-inline-html": {
         "allowed_elements": [
-            "iframe","span"
+            "iframe","span","script","a"
         ]
     }
 }
