@@ -5,7 +5,7 @@ permalink: /Impressum/
 ---
 # Kurzzusammenfassung
 
-> Falls du das hier ernsthaft liest, schließe die Seite lieber, denn hier ist alles böse. 😈
+*Falls du das hier ernsthaft liest, schließe die Seite lieber, denn hier ist alles böse.* 😈
 
 ## Angaben gemäß § 5 TMG
 
