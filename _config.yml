@@ -60,7 +60,7 @@ minima:
 
 permalink: /:categories/:year/:month/:day/:title/
 
-google_analytics: UA-34726227-3
+#google_analytics: UA-34726227-3
 
 disqus:
   shortname: fabsenet
