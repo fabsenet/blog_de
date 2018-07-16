@@ -3,24 +3,71 @@ layout: page
 title: Impressum
 permalink: /Impressum/
 ---
+# Kurzzusammenfassung
 
-## Inhaltlich verantwortlich
+*Falls du das hier ernsthaft liest, schließe die Seite lieber, denn hier ist alles böse.* 😈
+
+## Angaben gemäß § 5 TMG
 
 Fabian Wetzel, Grothwisch 36, 22457 Hamburg
 
+## Kontakt
 
-## Haftungsausschluss
+E-Mail: <span id="email">Keine E-Mail hier? Besseren Browser verwenden und/oder Javascript aktivieren!</span>
+<script type="text/javascript">
+    var e = 'ten.esbaf@esbaf'.split("").reverse().join("");
+    document.getElementById("email").innerHTML = ('<a href="mailto:'+e+'">'+e+'</a>');
+</script>
 
-> Falls du das hier ernsthaft liest, schließe die Seite lieber, denn hier ist alles böse.
+## Umsatzsteuer
 
-### Inhaltlich könnte hier alles falsch sein
+Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
+DE316574832
 
-Fabian Wetzel übernimmt keine Garantie oder Gewährleistung dafür, dass die auf dieser Website bereitgestellten Informationen und Angaben vollständig, richtig und in jedem Fall aktuell sind. Das Landgericht Hamburg hat mit Urteil vom 12.05.1998 entschieden, dass man durch die Ausbringung eines Links die Inhalte der gelinkten Seite ggf. mit zu verantworten hat. Dies kann - so das LG - nur dadurch verhindert werden, dass man sich ausdrücklich von diesen Inhalten distanziert. Bei dem Inhalt verlinkter Webseiten handelt es sich um fremde Inhalte. Fabian Wetzel hat als Betreiber dieses Internetangebots keinen Einfluss auf die Gestaltung und Inhalte der direkt oder indirekt verlinkten Seiten. Ich betrachte die Verlinkung in der Webseite nur als Zugangsvermittlung im Sinne des § 5 Abs. 3 des Teledienstgesetzes und übernehme keine Verantwortung für deren Inhalte. Sollten Sie auf meinen Seiten einen Link entdecken, der zu Seiten mit straf- oder haftungsrelevanten Inhalten führt, teilen Sie mir dies bitte umgehend per Email mit.
+## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-### Dieser Link gehört mir nicht
+Fabian Wetzel, Grothwisch 36, 22457 Hamburg
 
-Fabian Wetzel erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der gelinkten/verknüpften Seiten hat Fabian Wetzel keinerlei Einfluss. Deshalb distanziert sich Fabian Wetzel hiermit ausdrücklich von allen Inhalten aller gelinkten/verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich verweist.
+## Streitschlichtung
 
-### Ich tracke dich mit Google Analytics
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
-Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. 
+## Haftung für Inhalte
+
+Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den 
+allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht 
+verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen 
+zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen 
+Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der 
+Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden 
+Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+## Haftung für Links
+
+Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. 
+Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der 
+verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten 
+Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige 
+Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
+Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer 
+Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links 
+umgehend entfernen.
+
+## Urheberrecht
+
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen 
+Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der 
+Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. 
+Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch 
+gestattet.
+Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter 
+beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine 
+Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei 
+Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+Quelle: [e-recht24.de](https://www.e-recht24.de/)
+
+# Amazon affiliate program
+
+Fabian Wetzel is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.
