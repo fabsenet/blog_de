@@ -45,6 +45,7 @@ title: Fabse.net - Elektronik, Heimkino, Heimwerken
 email: fabse@fabse.net
 lang: de
 author: Fabian Wetzel
+port: 4002
 description: > # this means to ignore newlines until "baseurl:"
   Dieser Blog begleitet textuell meinen YouTube-Kanal und bietet weitere Inhalte sowie aktualisierte Inhalte, sofern notwendig.
 
