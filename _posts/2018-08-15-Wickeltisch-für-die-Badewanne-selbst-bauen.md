@@ -36,4 +36,20 @@ Du kannst dir das Modell auch gerne selbst [bei Tinkercad anschauen](https://www
 
 ## Verwendete Materialen
 
-Ich verwende für das Untergestell Kiefer-Kanthölzer mit 44x44mm. Die habe ich aus dem Baumarkt und die fühlen sich *gut* an, allerdings würde ich, wenn ich es nochmal bauen würde, eventuell schlankere Hölzer verwenden, da das Ganze so schon etwas schwer und so *über*-stabil ist, dass es eigentlich schon an Verschwendung grenzt.
+Ich verwende für das Untergestell Kiefer-Kanthölzer mit 44x44mm. Die habe ich aus dem Baumarkt und die fühlen sich wirklich *gut* an, allerdings würde ich, wenn ich es nochmal bauen würde, eventuell schlankere Hölzer verwenden, da das Ganze so schon etwas schwer und so *über*-stabil ist, dass es eigentlich schon an Verschwendung grenzt. Die Arbeitsfläche und die oberen Begrenzungen sind aus 10mm dickem Multiplex. Obwohl vorallem die Hauptplatte recht groß ist, konnte ich alles mit Resten bestreiten, die ich noch von einem anderen Projekt zuhause hatten.
+
+## Bauphase
+
+Ich habe zuerst das Gestell gebaut, dann die Auflage oben:
+
+### Untergestell bauen
+
+
+
+### Auflage bauen
+
+### Schleifen und Lackieren
+
+## Gefällt mir, was ich gebaut habe?
+
+?

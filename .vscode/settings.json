@@ -1,3 +1,4 @@
 {
     "workbench.colorTheme": "Default Dark+",
+    "markdownlint.run": "onSave",
 }
