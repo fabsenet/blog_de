@@ -8,5 +8,7 @@
         "allowed_elements": [
             "iframe","span","script","a"
         ]
-    }
+    },
+    "first-header-h1": {"level": 2},
+    "first-line-h1": {"level": 2}
 }
