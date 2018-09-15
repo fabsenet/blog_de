@@ -226,6 +226,9 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  h1 { 
+    background-color: red;
+  }
   h2 {
     @include relative-font-size(2);
 
