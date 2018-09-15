@@ -9,7 +9,7 @@ excerpt: >
    <iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
    <br />Im zweiten Teil der jetzt schon legendären Tutorialserie geht es darum, eine LED blinken zu lassen. Schau dir das Video an oder
 ---
-# Eine LED muss blinken!
+## Eine LED muss blinken!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
 
@@ -17,13 +17,13 @@ Das Ziel für die erste richtige *Bastelarbeit* soll eine LED sein, die mittels 
 
 Wie schon in der Einleitung erwähnt, habe ich das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T) ausgesucht, um meine Tutorialserie darauf aufzubauen. Alle verwendeten Bauteile findest du in [Teil 1 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-04-01 Einführung,Installation Raspbian,Installation Processing %}).
 
-# Logische Schaltung
+## Logische Schaltung
 
 Noch geht es ja vor allem um die Art und Weise, wie die Testschaltung aufgebaut ist, daher ist die eigentliche Schaltung vergleichsweise einfach. Es gibt eine Stromquelle und eine LED. Die Stromquelle ist in dem Fall der GPIO Pin 17 des Raspberrys selbst, da er für eine LED genug Leistung zur Verfügung stellen kann. **Achtung:** Will man andere Verbraucher oder mehrere LEDs betreiben, so geht das nicht mehr direkt über den Raspberry! Jedenfalls muss noch der Strom begrenzt werden, der durch die LED fließt, da eine LED dies nicht von alleine tut. Das Bastelset hat nur drei verschiedene Widerstandsarten dabei. Alle sind hoch genug, sofern man aber die LED leuchten sehen will, sollte man die 220 Ω (Ohm) wählen. Man kann den nötigen Widerstand aber auch errechnen.
 
 ![Schaltung](/assets/pi-diy/2/pi_diy_02_Blinking_LED.png)
 
-## Optional: Den minimalen Vorwiderstand für maximale Helligkeit ausrechnen
+### Optional: Den minimalen Vorwiderstand für maximale Helligkeit ausrechnen
 
 *Springe einfach zur nächsten Überschrift, falls dich die Rechnung gerade nicht interessiert!* Es ist aber auch nicht schwer, den optimalen Widerstand auszurechnen. Hierzu braucht man zuerst einige Fakten, die man den jeweiligen Datenblättern entnehmen kann. Wir wählen eine rote Standard-LED. Mangels konkretem Datenblatt habe ich mich im Internet umgeschaut, typischerweise ist der Spannungsabfall 2V und es wird eine maximale Stromstärke von 20mA angegeben. Die maximale Stromstärke des GPIO Pins hat sogar nur 16mA ([Quelle](https://raspberrypi.stackexchange.com/a/9299)).
 
@@ -52,7 +52,7 @@ R = 81,25 Ω
 
 Der minimale Widerstand, um weder den Raspberry PI noch die LED zu überlasten beträgt demnach 81Ω. Wir verwenden ja 220Ω, es besteht also keine Gefahr für unsere Bauteile.
 
-# Schaltung tatsächlich zusammenstecken
+## Schaltung tatsächlich zusammenstecken
 
 *Bevor du anfängst, die Schaltung zu bauen, stelle bitte sicher, dass du den PI vom Strom trennst. Das dient weniger deiner Sicherheit als der Sicherheit des PIs. Die Betriebsspannung von 5V des PIs ist für den Menschen ungefährlich, solltest du beim Bauen aber einen Kurzschluss verursachen, kann dies deinen PI zerstören und das willst du ja sicherlich nicht, oder?*
 
@@ -70,25 +70,25 @@ Auf dem Foto ist nochmal extra hervorgehoben, wie das Kabel aufzusetzen ist. Das
 
 Die restliche Schaltung kann man auf Basis des ersten Fotos aufbauen. Wichtig ist dabei noch die LED, denn eine LED funktioniert nur in eine Stromflussrichtung. Wenn man sich eine normale LED ansieht, hat sie unterschiedlich lange Beinchen. Das längere Beinchen muss dabei immer zur Plusseite der Stromquelle zeigen, in diesem Fall ist das der GPIO Pin 17.
 
-# Programmieren
+## Programmieren
 
 In [Teil 1 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-04-01 Einführung,Installation Raspbian,Installation Processing %}) haben wir ja Processing installiert und unser erstes Testprogramm geschrieben. Jetzt nutzen wir es zum Schalten zeitlich gesteuerten An- und Ausschalten des GPIO Pins 17. Außerdem soll das Fenster gleichzeitig entweder rot oder schwarz sein. Dies sollte bei der eventuell nötigen Fehlersuche helfen.
 
-## Die GPIO Funktionen
+### Die GPIO Funktionen
 
 Die GPIO Funktionen sind alle im Namensraum `processing.io` enthalten, dementsprechend muss man den zuerst mit dem Kommando `import processing.io.*;` importieren, um sie nutzen können. Um flexibel sein zu können beim Ändern der Schaltung, merke ich mir in einer globalen Variablen, welchen GPIO Pin ich genau verwendet habe. Einmalig muss ich diesen Pin auf `Output` schalten, da dies nicht der Standard ist. Das mache ich mit `GPIO.pinMode(ledPin, GPIO.OUTPUT);`. Will ich nun den Pin eine Spannung ausgeben lassen, verwendet man digitalWrite: `GPIO.digitalWrite(ledPin, GPIO.HIGH);`. Das gleiche Kommando mit `LOW` statt `HIGH` setzt die Ausgabespannung auf 0V.
 
-## Fensterfläche zeichnen
+### Fensterfläche zeichnen
 
 Außerdem soll ja auch das Fenster gezeichnet werden. Die Funktion `background(...)` gewährleistet das. Sie erwartet eine Farbangabe, z.B. in RGB. Um die LED übrigens nicht zu schnell zu schalten, greifen wir hier auf einen Trick zurück. Die Funktion `frameRate()` stellt ein, mit wie vielen Bildern pro Sekunde die Anwendung gezeichnet werden soll. Wir geben hier nur eine `1` an. Das bedeutet, dass unsere Anwendung nur einmal pro Sekunde gezeichnet wird. Der aktuelle Zustand der LED wird als `boolean` gehalten und bei jedem Zechnen geändert. Das führt dann zum Blinken.
 
-## Die speziellen Methoden setup() und draw()
+### Die speziellen Methoden setup() und draw()
 
 Das Programm verwendet die Funktionen `setup()` und `draw()`. Setup wird beim Start des Programms genau einmal durch Processing selbst aufgerufen und erlaubt es, einmalige Einstellungen vorzunehmen. Ich stelle hier die Framerate und den GPIO Pinmodus ein.
 
 Die Funktion draw wird von Processing jedes Mal aufgerufen, wenn es wieder Zeit ist, dass ein Frame der Anwendung gezeichnet werden muss. Hier schalte ich den Modus der LED um und zeichne entsprechend den Hintergrund.
 
-## Das vollständige Programm
+### Das vollständige Programm
 
 ```c#
 import processing.io.*;
@@ -115,7 +115,7 @@ void draw() {
 
 Falls du ungeklärte Fragen zum Quelltext hast, kannst du in die [Referenz](https://processing.org/reference/) ([GPIO Referenz](https://processing.org/reference/libraries/io/GPIO.html)) von Processing schauen und dich danach in die Kommentare begeben um zu Fragen.
 
-# Freuen und weiterführende Aufgabe
+## Freuen und weiterführende Aufgabe
 
 Wenn du es bis hier hin geschafft hast und auch richtig mitgemacht hast, dann spürst du jetzt hoffentlich auch das Gefühl, dass du was Richtiges erschaffen hast! Freue dich darüber!
 

@@ -8,7 +8,7 @@ excerpt: >
 
 ---
 
-# Nachwuchs ist auf dem Weg!
+## Nachwuchs ist auf dem Weg!
 
 Wir haben schon im Ikea und bei Amazon alles leer gekauft. Was so ein kleines Etwas alles braucht ist echt beeindruckend. Jedenfalls habe ich mir sagen lassen, müssen die auch regelmäßíg gewickelt werden und dafür haben wir zuhause eine Wickelunterlage. Wir haben uns hier für eine schöne [Wickelauflage von Julius Zöllner](https://amzn.to/2OH8wSl) entschieden. Aber wo legt man die Unterlage nun drauf? Häufig sieht man, dass Aufsätze für Kommoden verwendet werden, aber das Kinderzimmer wird wohl die ersten Monate sonst nicht verwendet werden und deshalb wollen wir es noch nicht beheizen und im Schlafzimmer haben wir keinen Platz, daher kam mir die Idee, dass wir einen Wickelaufsatz für die Badewanne benutzen könnten.
 
@@ -62,4 +62,4 @@ Ich habe dann das Untergestell und den Aufbau ins Bad getragen, da mir aufgegang
 
 ## Gefällt mir, was ich gebaut habe?
 
-Ich mag den Wickeltisch und er ist auch so geworden, wie ich mir ihn am Anfang noch im 3D Modell überlegt hatte, allerdings hatte das Verleimen ein so hohes Frustpotential, dass mir klar ist, dass ich mich selbst an dieser Stelle noch verbessern muss. Andererseits fand ich die Überblattungen echt genial und auch so einfach, dass die beim ersten Versuch durchaus gelingen können. Ich hab mir anfangs nicht richtig bewusst gemacht, wie groß dieser Wieckltischaufsatz wirklich ist, sonst hätte ich eventuell darüber nachgedacht, wie man das Ganze irgendwie kleiner bauen kann ohne die "Nutzfläche" zu verringern. 
+Ich mag den Wickeltisch und er ist auch so geworden, wie ich mir ihn am Anfang noch im 3D Modell überlegt hatte, allerdings hatte das Verleimen ein so hohes Frustpotential, dass mir klar ist, dass ich mich selbst an dieser Stelle noch verbessern muss. Andererseits fand ich die Überblattungen echt genial und auch so einfach, dass die beim ersten Versuch durchaus gelingen können. Ich hab mir anfangs nicht richtig bewusst gemacht, wie groß dieser Wieckltischaufsatz wirklich ist, sonst hätte ich eventuell darüber nachgedacht, wie man das Ganze irgendwie kleiner bauen kann ohne die "Nutzfläche" zu verringern.

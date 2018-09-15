@@ -9,7 +9,7 @@ excerpt: >
    <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh5dHIY5I4k" frameborder="0" allowfullscreen></iframe>
    <br />Das ist der Auftakt einer Serie von Beiträgen, die sich um das Basteln mit dem Raspberry PI dreht. Es geht mir um eine Kombination aus einfachen Schaltungen in Hardware, die mit den GPIO Pins des PIs angesteuert werden. Ich freue mich über jeden, der nicht nur mitliest bzw. mitschaut, sondern der auch wirklich sich hinsetzt und aktiv mitmacht! Die Belohnung dabei ist, dass jeder für sich etwas lernt und ein Gefühl des Erfolgs erhält, dass man etwas geschafft hat. Ich werde dabei...
 ---
-# Worum geht es?
+## Worum geht es?
 
 Das ist der Auftakt einer Serie von Beiträgen, die sich um das Basteln mit dem Raspberry PI dreht. Es geht mir um eine Kombination aus einfachen Schaltungen in Hardware, die mit den GPIO Pins des PIs angesteuert werden. Auf dem PI läuft dann ein Programm, welches über die GPIO Pins entsprechend reagiert.
 
@@ -17,7 +17,7 @@ Ich freue mich über jeden, der nicht nur mitliest bzw. mitschaut, sondern der a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh5dHIY5I4k" frameborder="0" allowfullscreen></iframe>
 
-# Benötigte Hardware um mitzumachen (kann man auch verschenken!)
+## Benötigte Hardware um mitzumachen (kann man auch verschenken!)
 
 ![Raspberry PI](/assets/pi-diy/RPi_Logo.png)
 
@@ -33,7 +33,7 @@ Was du brauchst um mitzumachen:
 - USB-Tastatur und -Maus: Du brauchst Maus und Tastatur am PI um ihn zu benutzen! Es sollte eigentlich fast alles funktionieren, was USB hat.
 - Bildschirm mit HDMI Eingang: Der PI hat einen HDMI Ausgang. Den kannst du an einen Fernseher oder PC-Monitor anschließen.
 
-# Installation Raspbian
+## Installation Raspbian
 
 ![Raspbian Logo](/assets/pi-diy/raspbian_logo.png)
 
@@ -47,7 +47,7 @@ Das war schon der schwerste Teil. Die SD Karte steckst du jetzt in den Raspberry
 
 Die Raspbian Installation ist wirklich über die Jahre sehr einfach geworden. Solltest du dennoch Probleme haben, die du einfach nicht gelöst bekommst, kannst du dich gerne über die Kommentare melden.
 
-# Installation Processing
+## Installation Processing
 
 ![Processing Logo](/assets/pi-diy/processing_logo.png)
 
@@ -61,7 +61,7 @@ Dann wartest du einfach bis es fertig ist und das war es schon. Über das Menü 
 
 ![Processing im Menü des PIs](/assets/pi-diy/1/processing_pi_menu.png)
 
-# Erstes kleines Programm
+## Erstes kleines Programm
 
 Um einen ersten kleinen Erfolg feiern zu können, schreibe ich jetzt nur ein kleines Programm, was nichts anderes tut, als dass ein Kreis gezeichnet wird:
 
@@ -83,7 +83,7 @@ Offenbar hat Processing hier viele Annahmen und Voreinstellungen getroffen, so d
 
 Du hast jetzt dein erstes eigenes Programm fertig gestellt! **Wow!**
 
-# Bonusaufgabe
+## Bonusaufgabe
 
 Während du auf die nächste Folge dieser Serie wartest, versuche doch mal ein Programm zu schreiben, was das folgende Fenster als Ausgabe erzeugt. (Du musst hierfür eventuell auf die [Processing Reference](https://processing.org/reference/) zurückgreifen.)
 
