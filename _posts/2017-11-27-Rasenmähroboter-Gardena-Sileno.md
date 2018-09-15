@@ -10,13 +10,13 @@ excerpt: >
    Mein Rasenmähroboter: Vorgestellt in einem ehrlichen Review mit Erfahrungen aus erster Hand über eine ganze Saison. Schau das Video oder ließ einfach weiter!
 
 ---
-# Wer keine Lust auf Lesen hat, der schaut das Video! 🙄
+## Wer keine Lust auf Lesen hat, der schaut das Video! 🙄
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AeMER0vfAZM" frameborder="0" allowfullscreen></iframe>
 
 [GARDENA 19060-60 smart SILENO Mähroboter](http://amzn.to/2iB8tJ9)
 
-# Ich lasse jetzt mähen 😎
+## Ich lasse jetzt mähen 😎
 
 Das hier soll ein ehrliches Review sein und deshalb fange ich gleich mit dem Wichtigsten an: Dem Preis. Rasenmähroboter allgemein sind schon Luxus mit einem Preis von ca. 600€ an aufwärts. Dieser Rasenmäher kostet aktuell [<span title="Preis vom 26.11.2017 // amazon.de">1348€</span>](http://amzn.to/2iB8tJ9) und ist damit schon in der Premiumklasse, aber er liefert auch, was er verspricht.
 
@@ -33,7 +33,7 @@ Zuerst sollte man aber einen Blick in die Anleitung werfen und auf Basis der Geg
 
 Bevor ich losgelegt hatte, habe ich mit einem normalen Rasenmäher nochmal alles auf 3cm runter gemäht, so dass der neue Roboter einen guten Start hat.
 
-# Kabel verlegen 💪😓
+## Kabel verlegen 💪😓
 
 Wenn der Plan gemacht ist, wo die Drähte sein sollen, geht es ans Verlegen. Ich hatte bei der geplanten Position der Ladestation begonnen und mich dann Meter für Meter am Rand entlang gearbeitet. Der Draht muss dabei 35cm entfernt von Kanten verlegt werden, wo der Rasenmäher gegen fahren könnte oder ggf. runterfallen könnte. Wenn es sich jedoch um etwas handelt, wo der Rasenmäher drauf fahren kann, wie eine Terrasse, dann reichen 10cm. Der Vorteil ist hier, dass keine Graskante entsteht, die man nacharbeiten muss.
 
@@ -45,19 +45,19 @@ Das unterirdische Verlegen dauert etwas länger. Ich habe hier den Boden etwa 5c
 
 Nachdem der Draht um das ganze Rasenstück rumgelegt ist, bleibt noch der Führungsdraht. Den legt man quer über die Fläche in die entlegendste Ecke. Die ist bei mir sehr schmal und lang. Will der Rasenmäher zurück zur Ladestation, muss er nur den Führungsdraht finden, anschließend kann er dem Kabel sehr genau folgen. So findet er auch aus dieser engen Stelle immer raus.
 
-# Ladestation aufstellen 🔋
+## Ladestation aufstellen 🔋
 
 Hat man den richtigen Ort gefunden für seine Ladestation, muss man dort Strom sowie die 3 Kabelenden anschließen. Dann muss sie nur noch im Boden mit einigen großen Schrauben verankert werden. Die Station nimmt einiges an Fläche in Anspruch, daher hatte ich mir eine ruhigere Ecke im Garten gesucht, musste dafür dann aber eben noch ein Stromverlängerungskabel verlegen.
 
-# Smarthub und App einrichten 📱
+## Smarthub und App einrichten 📱
 
 Der Smarthub sieht aus wie ein Router und stellt die Datenbrücke zwischen dem Rasenmäher und dem Internet dar. Er kann sich wohl auch per WLAN verbinden, ich habe ihn jedoch einfach per Netzwerkkabel an den Router angeschlossen. Nach dem ersten Anschluss hat der SmartHub bei mir ein Update geladen und danach neugestartet. Dieses Updaten hat locker über 5 Minuten gedauert. Anschließend kann man die App aus dem Store laden und verbindet sich mit dem Rasenmäher. Die App erlaubt das Einstellen vom Zeitplan für das Mähen. Außerdem kann man darüber aus der Ferne das Mähen starten oder stoppen und so den Plan auch übersteuern.
 
-# Mähen funktioniert tadellos 😎
+## Mähen funktioniert tadellos 😎
 
 Das eigentliche Mähen funktioniert so reibungslos, dass man dazu fast gar nichts sagen kann! Er hat sich in der ganzen Saison nicht einmal verfahren, ist nicht ausgebüchst, gar nichts. Er mäht nach dem Zufallsprinzip, das heißt, dass er einfach geradeaus mäht, bis er entweder gegen ein Hindernis fährt oder den Begrenzungsdraht detektiert. Dann fährt er ein kleines Stück rückwärts, dreht sich in eine zufällige Richtung und fährt wieder los. Das wiederholt sich, bis der Akku zur Neige geht. Dann schaltet er das Mähwerk ab und sucht die Ladestation. Der Mäher bietet viele Einstellmöglichkeiten, um auch schwierige Gartenlandschaften zu bewältigen, ein Blick in das wirklich gute Handbuch hilft hier weiter.
 
-# Meine Langzeiterfahrung ist äußerst positiv ⏰🌈
+## Meine Langzeiterfahrung ist äußerst positiv ⏰🌈
 
 Alles in allem, freue ich mich jeden Tag mehr über *Robbby*. Am Anfang war da noch der hohe Preis und die Ungewissheit, ob das was taugt. Dann folgte ein anstrengendes Tageswerk der Erstinstallation. Seit dem kann ich mich aber jeden Tag darüber freuen, wie schön gepflegt und dicht der Rasen ist und die Freiheit genießen, lieber auf dem Rasen zu liegen statt ihn bearbeiten zu müssen. Der **Freizeitgewinn** ist wirklich das Allerbeste an dem Mäher!
 
