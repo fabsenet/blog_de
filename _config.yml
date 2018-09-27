@@ -49,7 +49,7 @@ port: 4002
 description: > # this means to ignore newlines until "baseurl:"
   Dieser Blog begleitet textuell meinen YouTube-Kanal und bietet weitere Inhalte sowie aktualisierte Inhalte, sofern notwendig.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/staging" # the subpath of your site, e.g. /blog
 url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
