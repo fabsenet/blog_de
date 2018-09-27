@@ -44,9 +44,14 @@ Wenn ich das Untergestell nochmal bauen würde, würde ich darüber nachdenken, 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dZLcEujgOjw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Die Aufbau besteht aus Multiplex und ich musste eine Platte vergrößern, da die größte Platte, die ich hatte (und die ich mit dem Auto transportiert bekomme) in einer Richtung nicht lang genug ist für die Wickelunterlage. Ich habe mir die geradeste Kante an der Platte gesucht und eine weitere Platte mit einer möglichst geraden Kante dazu. In beide habe ich mit der Oberfräse eine Art Treppenstufe rein gefräst über die gesamte Kante. Diese *Treppenstufe* habe ich dabei genau halb so dick wie die Platte gemacht. Der Fräser, den ich dafür verwendet habe, hat ein Kugellager unten und damit bin ich die Kante der Platte abgefahren. Über dem Kugellager schneidet er dann in die Platte rein und nimmt ca. 10mm Material ab. Es handelt sich im Prinzip um einen Bündigfräser, bei dem die Messer weiter außen sind.
+Die Aufbau besteht aus Multiplex und ich musste eine Platte vergrößern, da die größte Platte, die ich hatte (und die ich mit dem Auto transportiert bekomme) in einer Richtung nicht lang genug ist für die Wickelunterlage. Ich habe mir die geradeste Kante an der Platte gesucht und eine weitere Platte mit einer möglichst geraden Kante dazu. In beide habe ich mit der Oberfräse eine Art Treppenstufe rein gefräst über die gesamte Kante. Diese *Treppenstufe* habe ich dabei genau halb so dick wie die Platte gemacht. Der Fräser, den ich dafür verwendet habe, hat ein Kugellager unten und damit bin ich die Kante der Platte abgefahren. Über dem Kugellager schneidet er dann in die Platte rein und nimmt ca. 10mm Material ab. Es handelt sich im Prinzip um einen Bündigfräser, bei dem die Messer weiter außen sind. [Diesen Fräser gibts im Set!](http://amzn.to/1RxnbKb)
+
+![Fräser](/assets/2018_mixed/wickeltisch/fräser.jpg)
+
 
 Dann habe ich die beiden Platten an genau dieser Treppenstufe übereinander geleimt und sie so zu einer größeren Platte verbunden. Das ist mir sehr gut gelungen, denn man sieht die Kante später nicht mehr. Aus dieser größen Platte habe ich dann durch 2 Schnitte mit der Handkreissäge die Bodenplatte der Auflage gemacht. Die Größe der Platte ist dabei so groß wie die Auflage plus ca. 1cm für die Wand nach links, rechts und hinten.
+
+![Multiplex auf Kante](/assets/2018_mixed/wickeltisch/multiplex_kante.jpg)
 
 Für die Umrandung habe ich dann aus Multiplexresten zuerst die Rückwand gemacht und dann zwei identische Seitenteile. Die Rückwand hat eine Höhe von ca. 10cm und die Seitenteile haben eine leicht schiefe Kante und sind vorne abgerundet. Wo sich jeweils Seitenteil und Rückwand berühren, habe ich beide auf Gehrung gesägt.
 
@@ -54,7 +59,10 @@ Dann habe ich die Seitenteile und die Rückwand mit sich und mit der Bodenplatte
 
 ### Schleifen und Lackieren
 
-Ich habe alle Kanten noch schnell mit einem Abrundfräser bearbeitet. Das macht mit meiner neu angeschafften Bosch Akkufräse auf jeden Fall richtig Spaß und danach hat man das Gefühl, dass alles einfach zwei Nummern professioneller war. Das macht wirklich einen riesen Unterschied.
+Ich habe alle Kanten noch schnell mit einem Abrundfräser bearbeitet. Das macht mit meiner neu angeschafften [Bosch Akkufräse](https://amzn.to/2LX898t) auf jeden Fall richtig Spaß und danach hat man das Gefühl, dass alles einfach zwei Nummern professioneller war. Das macht wirklich einen riesen Unterschied.
+
+![Kanten abrunden](/assets/2018_mixed/wickeltisch/bosch_akkufräse.jpg)
+
 
 Anschließend habe ich alles ganz brav geschliffen. Eine Arbeit, die etwas länger dauert, weniger Spaß macht aber einfach wirklich nötig ist, um ein exzellentes Endergebnis erreichen zu können. Dann habe ich alle mit weißer Farbe gestrichen. Ich hatte hier eine Farbe für den Außenbereich aus dem Baumarkt. Der Wickeltisch steht ja später im Bad und wird mit Luftfeuchtigkeit und Wasser in Berührung kommen und ich hoffe, dass diese Farbe verhindert, dass das Teil kaputt geht bevor wir es nicht mehr brauchen. Nach dem ersten Anstrich habe ich es nochmals geschliffen, da die Farbe auf Wasserbasis ist und sich die Holzfasern deshalb aufstellen. Mit diesem Schleifen entfernt man die. Danach noch 2 mal schleifen...und Fertig? Fast!
 
