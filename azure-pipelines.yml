@@ -6,7 +6,6 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
-#Build.SourceBranchName
 steps:
 - task: Docker@0
   condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
@@ -31,7 +30,7 @@ steps:
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.binariesDirectory):/srv/jekyll/_site
-    containerCommand: 'JEKYLL_ENV=development jekyll build --future'
+    containerCommand: 'bash -c "JEKYLL_ENV=development jekyll build --future"'
     detached: false
 
 # Publish Pipeline Artifact
