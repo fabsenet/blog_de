@@ -6,9 +6,11 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
+#Build.SourceBranchName
 steps:
 - task: Docker@0
-  displayName: 'Run Jekyll'
+  condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
+  displayName: 'Run Jekyll (MASTER / PRODUCTION)'
   inputs:
     containerRegistryType: 'Container Registry'
     action: 'Run an image'
@@ -18,6 +20,20 @@ steps:
       $(build.binariesDirectory):/srv/jekyll/_site
     containerCommand: 'jekyll build --future'
     detached: false
+
+- task: Docker@0
+  condition: not(eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  displayName: 'Run Jekyll (STAGING, $(Build.SourceBranchName))'
+  inputs:
+    containerRegistryType: 'Container Registry'
+    action: 'Run an image'
+    imageName: 'jekyll/builder:latest'
+    volumes: |
+      $(build.sourcesDirectory):/srv/jekyll
+      $(build.binariesDirectory):/srv/jekyll/_site
+    containerCommand: 'JEKYLL_ENV=development jekyll build --future'
+    detached: false
+
 # Publish Pipeline Artifact
 # Publish a local directory or file as a named artifact for the current pipeline.
 - task: PublishPipelineArtifact@0
