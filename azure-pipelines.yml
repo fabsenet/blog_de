@@ -30,7 +30,7 @@ steps:
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.binariesDirectory):/srv/jekyll/_site
-    containerCommand: 'bash -c "jekyll build --trace --config _config.yml,_config_staging.yml"'
+    containerCommand: 'sudo bash -c "jekyll build --trace --config _config.yml,_config_staging.yml"'
     detached: false
 
 # Publish Pipeline Artifact
