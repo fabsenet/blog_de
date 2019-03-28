@@ -14,7 +14,7 @@ Einem guten Freund wurde das Auto aufgebrochen und es wurde das komplette Naviga
 
 ### Wie immer auch als Video 🎥
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fz2OkOPKx1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube fz2OkOPKx1E %}
 
 Falls du nur das Video schaust, solltest du unten unbedingt noch den Hinweis zum DeepSleep des ESP lesen, denn der hat es leider nicht ins Video geschafft.
 

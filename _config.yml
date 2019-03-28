@@ -36,10 +36,8 @@
 # - update packages: sudo apt-get update -y && sudo apt-get upgrade -y
 # - install jekyll https://jekyllrb.com/docs/windows/
 # - gem install jekyll fails? try 
-#      sudo apt install clang make ruby-dev libffi-dev
+#      sudo apt install clang make ruby-all-dev libffi-dev
 #      sudo gem install ffi
-# - winscp is needed for pushing to production: choco install winscp
-# - create winscp stored session
 
 title: Fabse.net - Elektronik, Heimkino, Heimwerken
 email: fabse@fabse.net
@@ -60,8 +58,6 @@ minima:
   date_format: "%d.%m.%Y"
 
 permalink: /:categories/:year/:month/:day/:title/
-
-#google_analytics: UA-34726227-3
 
 disqus:
   shortname: fabsenet
@@ -90,6 +86,9 @@ exclude:
   - vendor/ruby/
   - LICENSE.txt
   - push.ps1
+  - azure-pipelines.yml
 
 include:
   - .well-known
+
+strict_front_matter: true

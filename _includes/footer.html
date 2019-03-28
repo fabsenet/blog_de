@@ -9,14 +9,14 @@
         <ul class="contact-list">
           <li>
             {% if site.author %}
-             👤 {{ site.author | escape }}
+            👤 {{ site.author | escape }}
             {% else %}
-              {{ site.title | escape }}
+            {{ site.title | escape }}
             {% endif %}
-            </li>
-            {% if site.email %}
-            <li>📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+          </li>
+          {% if site.email %}
+          <li>📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
         </ul>
       </div>
 
@@ -42,5 +42,8 @@
     </div>
 
   </div>
+
+
+  <script src="{{ "/assets/js/BetterTube.js" | relative_url }}"></script>
 
 </footer>

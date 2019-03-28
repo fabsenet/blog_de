@@ -1,0 +1,9 @@
+title: (STAGING!!) Fabse.net - Elektronik, Heimkino, Heimwerken
+
+
+baseurl: "/staging" # the subpath of your site, e.g. /blog
+url: "https://fabse.net/staging/" # the base hostname & protocol for your site, e.g. http://example.com
+
+show_drafts: true
+
+future: true

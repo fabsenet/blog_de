@@ -6,13 +6,13 @@ categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/DYe_8qmTk4k" frameborder="0" allowfullscreen></iframe>
+   {% youtube DYe_8qmTk4k %}
    <br />Teil 4 der Serie beschäftigt sich mit dem Steuern von RGB LEDs. Wir besprechen Pulsweitenmodulation und wie es im Raspberry PI realisiert werden kann.
    Schau dir das Video an oder
 ---
 ## Wir brauchen alle Farben in einer LED, wie geht das?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DYe_8qmTk4k" frameborder="0" allowfullscreen></iframe>
+{% youtube DYe_8qmTk4k %}
 
 Das Ziel für diese Episode soll sein, dass du verstehst, was Pulsweitenmodulation ist, wie man es machen kann, warum der Raspberry PI nur bedingt dafür geeignet ist und wie man das Wissen nutzt, um eine RGB Led anzusteuern. 
 
@@ -28,11 +28,11 @@ Wie schon in den letzten Teilen der Serie erwähnt, verwende ich hier
 
 ## Was ist eine RGB LED?
 
-![RGB LED](/assets/pi-diy/4/RGB_LED_Bauteil.png)
+![RGB LED]({% link /assets/pi-diy/4/RGB_LED_Bauteil.png %})
 
 In [Teil 2 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-23-02-LED-Blinken-lassen %}) haben wir ja schon die LED kennen gelernt. Eine RGB Led ist nun eine LED, die eigentlich gleich 3 LEDs in einem fast genauso aussehenden Gehäuse vereint. Diese Kombi-LED hat dabei nur 4 statt der zuerst logisch erscheinenden 6 Beinchen. Das liegt daran, dass man je nach Bauweise alle inneren LEDs entweder sich die gleiche Anode oder Katode teilen.
 
-![RGB LED "von innen"](/assets/pi-diy/4/RGB_LED.png)
+![RGB LED "von innen"]({% link /assets/pi-diy/4/RGB_LED.png %})
 
 Ich konnte mir selbst auch noch nie merken, was jetzt was ist, aber es gibt eine einfache Faustregel:
 
@@ -42,11 +42,11 @@ Das lange Beinchen muss daher mit Plus verbunden werden.
 
 ## Was ist nun Pulsweitenmodulation?
 
-![RGB LED](/assets/pi-diy/4/pwm.png)
+![RGB LED]({% link /assets/pi-diy/4/pwm.png %})
 
 Bei der Pulsweitenmodulation (kurz PWM) erzeugt man ein periodisches digitales Signal. Auf diese Art und Weise kann man eine LED ansteuern. Ist die Periode kurz genug, also die Frequenz hoch genug, wirkt es für das menschliche Auge, als würde die LED mit verringerter Helligkeit leuchten.
 
-Im Schaubild ist `T` die Periodenlänge. Die Frequenz ist üblicherweise im kHz Bereich, dementsprechend ist `T = 1ms` oder kürzer. 
+Im Schaubild ist `T` die Periodenlänge. Die Frequenz ist üblicherweise im kHz Bereich, dementsprechend ist `T = 1ms` oder kürzer.
 
 `t` ist dann weiterhin die Zeit innerhalb einer Periode, wo das Signal auf high ist. Im Schaubild ist das beispielsweise 25%. Da unsere Beispiel-LED ja mit dem anderen Beinchen an Plus hängt, leuchtet sie, wenn der GPIO Port auf LOW geht, dementsprechend würde man etwa 75% Helligkeit wahrnehmen, wenn eine LED mit dem Beispielsignal geschaltet wird.
 
@@ -54,7 +54,7 @@ Ich empfehle dir auch, dich zu [PWM bei Wikipedia](https://de.wikipedia.org/wiki
 
 ## Schaltung aufbauen
 
-![Komplette Schaltung mit RGB LED](/assets/pi-diy/4/schaltung_pi_leds.png)
+![Komplette Schaltung mit RGB LED]({% link /assets/pi-diy/4/schaltung_pi_leds.png %})
 
 Die komplette Schaltung ist etwas größer als die aus dem zweiten Teil, aber eigentlich nicht komplizierter. Alle 3 Teil-LEDs werden am gemeinsamen Ende mit der 3,3V Spannung verbunden und am anderen Ende über einen 220 Ohm Widerstand an einen freien GPIO Port gebunden. Da es kein einzelnes Schaubild für eine RGB LED gibt, kann man auf dem Schaltplan nichtmal richtig erkennen, ob es sich um 3 einzelne LEDs oder eine RGB LED handelt.
 
@@ -62,7 +62,7 @@ Die komplette Schaltung ist etwas größer als die aus dem zweiten Teil, aber ei
 
 Für dieses Beispiel verweise ich dich direkt auf den Beispielcode von Freenove. Er umfasst viel graphische Elemente, deren Programmierung langwierig ist, dich in diesem Moment aber mit der PWM Steuerung nicht weiterbringt. [Der komplette Sketch](https://github.com/fabsenet/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/tree/master/Processing/Sketchs/Sketch_04_1_1_ColorfulLED) besteht aus 3 Dateien, die du in Processing öffnest, in der `Sketch_04_1_1_ColorfulLED.pde` trägst du ganz oben ein, welche GPIO Ports du verwendet hast und du kannst auch schon die Anwendung starten.
 
-![RGB LED GUI mit echter Schaltung](/assets/pi-diy/4/RGB_LED_GUI_sidebyside.jpg)
+![RGB LED GUI mit echter Schaltung]({% link /assets/pi-diy/4/RGB_LED_GUI_sidebyside.jpg %})
 
 Das PWM Signal wird dabei in der [`SOFTPWM.pde`](https://github.com/fabsenet/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/Processing/Sketchs/Sketch_04_1_1_ColorfulLED/SOFTPWM.pde) Datei erzeugt. Hier finden sich wie erwartet die Funktionsaufrufe zum Steuern eines GPIO Pins. Es werden auch die entsprechenden Wartezeiten berechnet, die für das PWM Signal benötigt werden. Die Erzeugung des Signals ist dann eine Endlosschleife:
 
@@ -73,7 +73,7 @@ while (true)
     if (marks!=0)
     {
         GPIO.digitalWrite(pin, GPIO.HIGH);
-        delayMicroSeconds(marks);          
+        delayMicroSeconds(marks);
     }
     if (space!=0)
     {
