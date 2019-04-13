@@ -1,10 +1,29 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
   {% for post in site.posts %}
+ 
+  {% case forloop.index %}
+  {% when 1 %}
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <h2 class="post-title" itemprop="name headline">{{ post.title | escape }}</h2>
+      </a>
+      {% include post-meta.html date=post.date author=post.author content=post.content %}
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      {{ post.content | markdownify }}
+      <a href="{{ post.url | relative_url }}">weiterlesen…</a>
+    </div>
+  </article>
+  <hr />
+  {% when 2 or 3 or 4 %}
+  
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
@@ -20,6 +39,19 @@ layout: default
     </div>
   </article>
   <hr />
+
+  {% else %}
+  
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <h2 class="post-title" itemprop="name headline">{{ post.title | escape }}</h2>
+    </a>
+  </header>
+</article>
+
+{% endcase %}
+
   {% endfor %}
 
   <p class="rss-subscribe">Abonniere diesen Blog <a href="{{ "/feed.xml" | relative_url }}">via RSS Feed</a></p>
