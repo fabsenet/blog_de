@@ -60,6 +60,8 @@ url: "https://fabse.net" # the base hostname & protocol for your site, e.g. http
 #github_username:  jekyll
 instagram_username: fabsenet
 twitter_username: fabsenet
+youtube_username: fabsenet
+youtube_channel: FabseNetDe
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this

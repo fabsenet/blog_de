@@ -9,13 +9,13 @@
         <ul class="contact-list">
           <li>
             {% if site.author %}
-            👤 {{ site.author | escape }}
+            <span class="icon icon--person">{% include icon-person.svg %}</span> {{ site.author | escape }}
             {% else %}
             {{ site.title | escape }}
             {% endif %}
           </li>
           {% if site.email %}
-          <li>📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><span class="icon icon--mail">{% include icon-mail.svg %}</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% endif %}
         </ul>
       </div>
@@ -25,6 +25,18 @@
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.youtube_username %}
+          <li>
+            {% include icon-youtube.html username=site.youtube_username channel=site.youtube_channel %}
+          </li>
+          {% endif %}
+
+          {% if site.instagram_username %}
+          <li>
+            {% include icon-instagram.html username=site.instagram_username %}
           </li>
           {% endif %}
 
