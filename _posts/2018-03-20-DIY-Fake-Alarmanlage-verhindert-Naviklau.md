@@ -3,14 +3,12 @@ layout: post
 title:  Fake Alarmanlage selber bauen! Naviklau und Autodiebstahl günstig verhindern!
 categories: ESP8266
 author: Fabian Wetzel
-excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/fz2OkOPKx1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <br />Einem guten Freund wurde das Auto aufgebrochen und es wurde das komplette Navigations- und Entertainmentsystem geklaut. Das Auto hat auch keine Alarmanlage. Ich habe das beobachtet und mir dazu was überlegt.
-
 ---
 ## Fake Alarmanlage selber bauen!
 
 Einem guten Freund wurde das Auto aufgebrochen und es wurde das komplette Navigations- und Entertainmentsystem geklaut. Das Auto hat auch keine Alarmanlage. Ich habe das beobachtet und mir meine Gedanken gemacht. Eine Alarmanlage nachzurüsten ist möglich, aber auch teuer und dann bleibt die Frage, ob sie wirklich was bringt?! Meine Idee war nun, die Existenz einer Alarmanlage zu faken in dem man die charakteristisch blinkende LED einfach nachbaut. Der Dieb kann vor dem Aufbruch des Autos ja nicht wissen, ob das nun Fake oder echt ist, sofern er es nicht an Details erkennt.
+
+<!-- more -->
 
 ### Wie immer auch als Video 🎥
 

@@ -5,16 +5,16 @@ date:   2018-10-05 21:30:00 +0200
 categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
-excerpt: >
-   {% youtube DYe_8qmTk4k %}
-   <br />Teil 4 der Serie beschäftigt sich mit dem Steuern von RGB LEDs. Wir besprechen Pulsweitenmodulation und wie es im Raspberry PI realisiert werden kann.
-   Schau dir das Video an oder
 ---
 ## Wir brauchen alle Farben in einer LED, wie geht das?
 
-{% youtube DYe_8qmTk4k %}
+Das Ziel für diese Episode soll sein, dass du verstehst, was Pulsweitenmodulation ist, wie man es machen kann, warum der Raspberry PI nur bedingt dafür geeignet ist und wie man das Wissen nutzt, um eine RGB Led anzusteuern.
 
-Das Ziel für diese Episode soll sein, dass du verstehst, was Pulsweitenmodulation ist, wie man es machen kann, warum der Raspberry PI nur bedingt dafür geeignet ist und wie man das Wissen nutzt, um eine RGB Led anzusteuern. 
+<!-- more -->
+
+Auch diese Episode gibt es natürlich wieder als Video:
+
+{% youtube DYe_8qmTk4k %}
 
 Wie schon in den letzten Teilen der Serie erwähnt, verwende ich hier
 
