@@ -73,6 +73,8 @@ permalink: /:categories/:year/:month/:day/:title/
 disqus:
   shortname: fabsenet
 
+excerpt_separator: <!-- more -->
+
 # Build settings
 markdown: kramdown
 #theme: minima
