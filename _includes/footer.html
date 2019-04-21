@@ -17,6 +17,7 @@
           {% if site.email %}
           <li><span class="icon icon--mail">{% include icon-mail.svg %}</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% endif %}
+          <li><span class="icon icon--rss">{% include icon-rss.svg %}</span> <a href="{{ "/feed.xml" | relative_url }}">RSS-Feed dieser Seite</a></li>
         </ul>
       </div>
 
