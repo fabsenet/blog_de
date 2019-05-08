@@ -1,62 +1,50 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <h2>{{ site.title | escape }}</h2>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  <ul class="contact-list">
+    <li>
+      {% if site.author %}
+      <span class="icon icon--person">{% include icon-person.svg %}</span> {{ site.author | escape }}
+      {% else %}
+      {{ site.title | escape }}
+      {% endif %}
+    </li>
+    {% if site.email %}
+    <li><span class="icon icon--mail">{% include icon-mail.svg %}</span> <a
+        href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    {% endif %}
+    <li><span class="icon icon--rss">{% include icon-rss.svg %}</span> <a
+        href="{{ "/feed.xml" | relative_url }}">RSS-Feed dieser Seite</a></li>
+  </ul>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-            <span class="icon icon--person">{% include icon-person.svg %}</span> {{ site.author | escape }}
-            {% else %}
-            {{ site.title | escape }}
-            {% endif %}
-          </li>
-          {% if site.email %}
-          <li><span class="icon icon--mail">{% include icon-mail.svg %}</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {% endif %}
-          <li><span class="icon icon--rss">{% include icon-rss.svg %}</span> <a href="{{ "/feed.xml" | relative_url }}">RSS-Feed dieser Seite</a></li>
-        </ul>
-      </div>
+  <ul class="social-media-list">
+    {% if site.github_username %}
+    <li>
+      {% include icon-github.html username=site.github_username %}
+    </li>
+    {% endif %}
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+    {% if site.youtube_username %}
+    <li>
+      {% include icon-youtube.html username=site.youtube_username channel=site.youtube_channel %}
+    </li>
+    {% endif %}
 
-          {% if site.youtube_username %}
-          <li>
-            {% include icon-youtube.html username=site.youtube_username channel=site.youtube_channel %}
-          </li>
-          {% endif %}
+    {% if site.instagram_username %}
+    <li>
+      {% include icon-instagram.html username=site.instagram_username %}
+    </li>
+    {% endif %}
 
-          {% if site.instagram_username %}
-          <li>
-            {% include icon-instagram.html username=site.instagram_username %}
-          </li>
-          {% endif %}
+    {% if site.twitter_username %}
+    <li>
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+    {% endif %}
+  </ul>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-  </div>
-
-
-  <script src="{{ "/assets/js/BetterTube.js" | relative_url }}"></script>
+  <p>{{ site.description | escape }}</p>
 
 </footer>
+<script src="{{ "/assets/js/BetterTube.js" | relative_url }}"></script>
