@@ -1,6 +1,9 @@
-/**
- * Site header
- */
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 .site-header {
   display: block;
   border-top: 5px solid $grey-color-dark;

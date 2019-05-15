@@ -10,7 +10,7 @@
   display: grid;
   justify-content: center;
   align-content: start;
-  grid-template-columns: repeat(12, (1000px / 12));
+  grid-template-columns: repeat(4, (1000px / 4));
 
   a,
   a:visited {
@@ -25,5 +25,29 @@
   ul {
     list-style: none;
     margin-left: 0;
+    li {
+      line-height: 2;
+    }
+  }
+  .icon {
+    padding-right: 5px;
+  }
+  .icon--youtube path {
+    fill: #ff4949;
+  }
+  .icon--twitter path {
+    fill: #1da1f2;
+  }
+  .icon--rss path {
+    fill: #f06e19;
+  }
+  .icon--mail path {
+    fill: #ae3020;
+  }
+  .icon--person path {
+    fill: #fff;
+  }
+  .icon--instagram path {
+    fill: #fff;
   }
 }

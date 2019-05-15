@@ -3,18 +3,10 @@
   <h2>{{ site.title | escape }}</h2>
 
   <ul class="contact-list">
-    <li>
-      {% if site.author %}
-      <span class="icon icon--person">{% include icon-person.svg %}</span> {{ site.author | escape }}
-      {% else %}
-      {{ site.title | escape }}
-      {% endif %}
-    </li>
-    {% if site.email %}
-    <li><span class="icon icon--mail">{% include icon-mail.svg %}</span> <a
+    <li><span class="icon icon--person">{% include icon-person.svg %}</span>{{ site.author | escape }}</li>
+    <li><span class="icon icon--mail">{% include icon-mail.svg %}</span><a
         href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    {% endif %}
-    <li><span class="icon icon--rss">{% include icon-rss.svg %}</span> <a
+    <li><span class="icon icon--rss">{% include icon-rss.svg %}</span><a
         href="{{ "/feed.xml" | relative_url }}">RSS-Feed dieser Seite</a></li>
   </ul>
 
