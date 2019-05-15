@@ -4,13 +4,34 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   margin-top: 80px;
-  padding: $spacing-unit 0;
+  padding: 30px 0;
   background-color: #313131;
+  background: linear-gradient(to bottom, #fdfdfd 0%, #202020 1%, #313131 15%, #313131 92%, #363131 100%);
+
   color: rgb(255, 255, 255);
   display: grid;
   justify-content: center;
   align-content: start;
-  grid-template-columns: repeat(4, (1000px / 4));
+  grid-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, (900px / 4));
+
+  @include media-query(1050px) {
+    padding: 30px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    h2 {
+      grid-column: 1 / span 2;
+      justify-self: center;
+    }
+    ul {
+      justify-self: center;
+    }
+    p {
+      grid-column: 1 / span 2;
+      justify-self: center;
+    }
+  }
 
   a,
   a:visited {
