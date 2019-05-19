@@ -18,7 +18,7 @@ Ich freue mich über jeden, der nicht nur mitliest bzw. mitschaut, sondern der a
 
 ## Benötigte Hardware um mitzumachen (kann man auch verschenken!)
 
-![Raspberry PI](/assets/pi-diy/RPi_Logo.png)
+![Raspberry PI]({% link /assets/pi-diy/RPi_Logo.png %})
 
 Du brauchst den Raspberry PI mit Speicherkarte und Stromversorgung. Ich hoffe du hast einen PC mit Speicherkartenlesegerät, ansonsten solltest du dir das auch kaufen. Die Einzelteile zusammen könnten auch ein Geschenk sein?!
 
@@ -34,7 +34,7 @@ Was du brauchst um mitzumachen:
 
 ## Installation Raspbian
 
-![Raspbian Logo](/assets/pi-diy/raspbian_logo.png)
+![Raspbian Logo]({% link /assets/pi-diy/raspbian_logo.png %})
 
 Raspbian ist ein Betriebssystem für den Raspberry PI. Die Installation ist eigentlich ganz einfach. Du lädst dir die [aktuellste Version von der Raspberry PI Webseite](https://www.raspberrypi.org/downloads/raspbian/) als ZIP Datei herunter. Dann lädst du dir die Software [etcher](https://etcher.io/) herunter. Etcher installierst du dann ganz normal. Etcher hat eine simple Oberfläche, der man einfach nur Folgen muss:
 
@@ -48,7 +48,7 @@ Die Raspbian Installation ist wirklich über die Jahre sehr einfach geworden. So
 
 ## Installation Processing
 
-![Processing Logo](/assets/pi-diy/processing_logo.png)
+![Processing Logo]({% link /assets/pi-diy/processing_logo.png %})
 
 [Processing](https://processing.org/) ist die Programmierumgebung, die ich für diese Serie verwenden will. Sie funktioniert mit dem PI, sowie unter Windows und Linux ... anscheinend überall. [Die Installation auf dem PI](https://github.com/processing/processing/wiki/Raspberry-Pi) ist dabei super einfach. Du öffnest eine Kommandozeile auf dem PI und gibst dort folgendes Kommando ein:
 
@@ -58,7 +58,7 @@ curl https://processing.org/download/install-arm.sh | sudo sh
 
 Dann wartest du einfach bis es fertig ist und das war es schon. Über das Menü kannst du jetzt Processing auswählen und starten.
 
-![Processing im Menü des PIs](/assets/pi-diy/1/processing_pi_menu.png)
+![Processing im Menü des PIs]({% link /assets/pi-diy/1/processing_pi_menu.png %})
 
 ## Erstes kleines Programm
 
@@ -72,11 +72,11 @@ Diese eine Zeile genügt schon! Die [Dokumentation für `ellipse()`](https://pro
 
 Dein Processing-Fenster sollte jetzt in etwa so aussehen:
 
-![Processing Window mit dem ellipse() Kommando](/assets/pi-diy/1/processing_ellipse.png)
+![Processing Window mit dem ellipse() Kommando]({% link /assets/pi-diy/1/processing_ellipse.png %})
 
 und wenn du dein erstes eigenes Programm mit STRG+R oder einem Klick auf den Play-Button startest, sollte es so aussehen:
 
-![Erstes eigenes Programm mit dem ellipse() Kommando](/assets/pi-diy/1/ellipse_window.png)
+![Erstes eigenes Programm mit dem ellipse() Kommando]({% link /assets/pi-diy/1/ellipse_window.png %})
 
 Offenbar hat Processing hier viele Annahmen und Voreinstellungen getroffen, so dass mit dieser einen Zeile allein ein Fenster aufgeht, auf dem ein Kreis zu sehen ist.
 
@@ -86,4 +86,4 @@ Du hast jetzt dein erstes eigenes Programm fertig gestellt! **Wow!**
 
 Während du auf die nächste Folge dieser Serie wartest, versuche doch mal ein Programm zu schreiben, was das folgende Fenster als Ausgabe erzeugt. (Du musst hierfür eventuell auf die [Processing Reference](https://processing.org/reference/) zurückgreifen.)
 
-![Processing Bonus Aufgabe](/assets/pi-diy/1/processing_bonus_aufgabe.png)
+![Processing Bonus Aufgabe]({% link /assets/pi-diy/1/processing_bonus_aufgabe.png %})

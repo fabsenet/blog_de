@@ -20,7 +20,7 @@ Wie schon in der Einleitung erwähnt, habe ich das [Freenove Ultimate Starter Ki
 
 Noch geht es ja vor allem um die Art und Weise, wie die Testschaltung aufgebaut ist, daher ist die eigentliche Schaltung vergleichsweise einfach. Es gibt eine Stromquelle und eine LED. Die Stromquelle ist in dem Fall der GPIO Pin 17 des Raspberrys selbst, da er für eine LED genug Leistung zur Verfügung stellen kann. **Achtung:** Will man andere Verbraucher oder mehrere LEDs betreiben, so geht das nicht mehr direkt über den Raspberry! Jedenfalls muss noch der Strom begrenzt werden, der durch die LED fließt, da eine LED dies nicht von alleine tut. Das Bastelset hat nur drei verschiedene Widerstandsarten dabei. Alle sind hoch genug, sofern man aber die LED leuchten sehen will, sollte man die 220 Ω (Ohm) wählen. Man kann den nötigen Widerstand aber auch errechnen.
 
-![Schaltung](/assets/pi-diy/2/pi_diy_02_Blinking_LED.png)
+![Schaltung]({% link /assets/pi-diy/2/pi_diy_02_Blinking_LED.png %})
 
 ### Optional: Den minimalen Vorwiderstand für maximale Helligkeit ausrechnen
 
@@ -57,13 +57,13 @@ Der minimale Widerstand, um weder den Raspberry PI noch die LED zu überlasten b
 
 Im Mittelpunkt der Schaltung steht vor allem das Steckbrett:
 
-![Schaltung auf dem Steckbrett aufgebaut](/assets/pi-diy/2/schaltung02.jpg)
+![Schaltung auf dem Steckbrett aufgebaut]({% link /assets/pi-diy/2/schaltung02.jpg %})
 
 Ein Steckbrett ist super geeignet, da man hiermit Schaltungen sehr schnell zusammenstecken kann. Außerdem muss man nicht Löten. Das spart Zeit und man ist auch flexibler. Auf dem Bild habe ich rote Rechtecke als farbliche Überlagerungen gemalt. Alle Löcher innerhalb eines Rechtecks sind leitend verbunden. Ich denke, das Muster sollte klar sein, auch wenn ich nicht alle Rechtecke gemalt habe.
 
 Das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T) enthält nun nicht nur das Steckbrett, sondern auch einen Aufsatz, der auf einfache Art und Weise ein *Weiterleiten* des GPIO Anschlusses des Raspberrys erlaubt. Den Adapter selbst steckt man einfach auf das Steckbrett. Dann muss man nur noch das Flachbandkabel mit dem Adapter und dem PI verbinden. Der Adapter hat eine Aussparung, so dass man das Kabel hier nicht verdreht aufsetzen kann. Auf der Seite des PIs kann man das Kabel aber tatsächlich falsch aufsetzen. Hier hilft das folgende Foto:
 
-![Raspberry PI3 mit GPIO Flachbandkabel](/assets/pi-diy/2/raspi_gpio_kabel.jpg)
+![Raspberry PI3 mit GPIO Flachbandkabel]({% link /assets/pi-diy/2/raspi_gpio_kabel.jpg %})
 
 Auf dem Foto ist nochmal extra hervorgehoben, wie das Kabel aufzusetzen ist. Das Kabel hat eine farbige Ader und die muss so angeschlossen sein, dass sie auf der Seite ist, wo der USB-Anschluss des PIs genau **nicht** ist.
 
