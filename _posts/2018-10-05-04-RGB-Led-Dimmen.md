@@ -28,11 +28,11 @@ Wie schon in den letzten Teilen der Serie erwähnt, verwende ich hier
 
 ## Was ist eine RGB LED?
 
-![RGB LED]({% link /assets/pi-diy/4/RGB_LED_Bauteil.png %})
+{% include image.html file="/assets/pi-diy/4/RGB_LED_Bauteil.png" description="RGB LED" %}
 
 In [Teil 2 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-23-02-LED-Blinken-lassen %}) haben wir ja schon die LED kennen gelernt. Eine RGB Led ist nun eine LED, die eigentlich gleich 3 LEDs in einem fast genauso aussehenden Gehäuse vereint. Diese Kombi-LED hat dabei nur 4 statt der zuerst logisch erscheinenden 6 Beinchen. Das liegt daran, dass man je nach Bauweise alle inneren LEDs entweder sich die gleiche Anode oder Katode teilen.
 
-![RGB LED "von innen"]({% link /assets/pi-diy/4/RGB_LED.png %})
+{% include image.html file="/assets/pi-diy/4/RGB_LED.png" description="RGB LED 'von innen'" %}
 
 Ich konnte mir selbst auch noch nie merken, was jetzt was ist, aber es gibt eine einfache Faustregel:
 
@@ -42,7 +42,7 @@ Das lange Beinchen muss daher mit Plus verbunden werden.
 
 ## Was ist nun Pulsweitenmodulation?
 
-![RGB LED]({% link /assets/pi-diy/4/pwm.png %})
+{% include image.html file="/assets/pi-diy/4/pwm.png" description="RGB LED" %}
 
 Bei der Pulsweitenmodulation (kurz PWM) erzeugt man ein periodisches digitales Signal. Auf diese Art und Weise kann man eine LED ansteuern. Ist die Periode kurz genug, also die Frequenz hoch genug, wirkt es für das menschliche Auge, als würde die LED mit verringerter Helligkeit leuchten.
 
@@ -54,7 +54,7 @@ Ich empfehle dir auch, dich zu [PWM bei Wikipedia](https://de.wikipedia.org/wiki
 
 ## Schaltung aufbauen
 
-![Komplette Schaltung mit RGB LED]({% link /assets/pi-diy/4/schaltung_pi_leds.png %})
+{% include image.html file="/assets/pi-diy/4/schaltung_pi_leds.png" description="Komplette Schaltung mit RGB LED" %}
 
 Die komplette Schaltung ist etwas größer als die aus dem zweiten Teil, aber eigentlich nicht komplizierter. Alle 3 Teil-LEDs werden am gemeinsamen Ende mit der 3,3V Spannung verbunden und am anderen Ende über einen 220 Ohm Widerstand an einen freien GPIO Port gebunden. Da es kein einzelnes Schaubild für eine RGB LED gibt, kann man auf dem Schaltplan nichtmal richtig erkennen, ob es sich um 3 einzelne LEDs oder eine RGB LED handelt.
 
@@ -62,7 +62,7 @@ Die komplette Schaltung ist etwas größer als die aus dem zweiten Teil, aber ei
 
 Für dieses Beispiel verweise ich dich direkt auf den Beispielcode von Freenove. Er umfasst viel graphische Elemente, deren Programmierung langwierig ist, dich in diesem Moment aber mit der PWM Steuerung nicht weiterbringt. [Der komplette Sketch](https://github.com/fabsenet/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/tree/master/Processing/Sketchs/Sketch_04_1_1_ColorfulLED) besteht aus 3 Dateien, die du in Processing öffnest, in der `Sketch_04_1_1_ColorfulLED.pde` trägst du ganz oben ein, welche GPIO Ports du verwendet hast und du kannst auch schon die Anwendung starten.
 
-![RGB LED GUI mit echter Schaltung]({% link /assets/pi-diy/4/RGB_LED_GUI_sidebyside.jpg %})
+{% include image.html file="/assets/pi-diy/4/RGB_LED_GUI_sidebyside.jpg" description="RGB LED GUI mit echter Schaltung" %}
 
 Das PWM Signal wird dabei in der [`SOFTPWM.pde`](https://github.com/fabsenet/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/Processing/Sketchs/Sketch_04_1_1_ColorfulLED/SOFTPWM.pde) Datei erzeugt. Hier finden sich wie erwartet die Funktionsaufrufe zum Steuern eines GPIO Pins. Es werden auch die entsprechenden Wartezeiten berechnet, die für das PWM Signal benötigt werden. Die Erzeugung des Signals ist dann eine Endlosschleife:
 

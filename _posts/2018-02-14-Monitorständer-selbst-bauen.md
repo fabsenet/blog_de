@@ -21,11 +21,11 @@ Im Video erfährst du alles, falls du keine Lust hast, so viel Text zu lesen:
 
 Ich baue die Halterung aus Sperrholz und einem Kantholz aus Kiefer als Rückwand. Das Ziel war vorallem, dass die Displays so flach wie möglich über der Tischfläche sind. Dafür habe ich die Basis aus zwei Sperrholflächen gebaut, die jeweils ca. 20x6cm groß sind. Hinter dem Punkt, wo das Display aufliegt, wird durch ein weiteres Sperrholzstück beide Basisplatten zu einer Einheit verbunden. Mit meiner [Oberfräse](http://amzn.to/2sxDW7z) habe ich dann einen Kanal in die Basisplatten gefräst. Hier hat sich mein [Fräsköpfe-Set](http://amzn.to/2GdOYR7) wirklich gut gemacht, da ich so unter einen großen Auswahl den richtigen Fräser auswählen konnte, vorallem da ich anfangs auch einen zu kleinen gewählt hatte.
 
-![Basis des Monitorständer]({% link /assets/2018_mixed/monitor_ständer_basis.jpg %})
+{% include image.html file="/assets/2018_mixed/monitor_ständer_basis.jpg" description="Basis des Monitorständer" %}
 
  Am oberen Ende habe ich auf die gleiche Weise eine weitere Platte mit gefrästem Kanal gebaut. Die ist lediglich nach vorne direkt nach dem gefrästen Kanal direkt zu Ende. Zum Abschluss habe ich eine Holzlatte auf die richtige Länge gesägt, so dass ich das Display genau einspannen kann. An der Oberseite ist die Schnittfläche ganz leicht - vielleicht 5° - schief, so dass beim Verschrauben eine kleine Spannung entsteht und das Display gehalten wird.
 
-![Monitorständer mit Display]({% link /assets/2018_mixed/monitor_ständer_mit_display.jpg %})
+{% include image.html file="/assets/2018_mixed/monitor_ständer_mit_display.jpg" description="Monitorständer mit Display" %}
 
 ### Ergebnis
 

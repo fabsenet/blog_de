@@ -40,7 +40,7 @@ Bleibt nur noch das letzte Ziel: Das System muss ohne Steuerung von selbst erken
 
 ## Finales Blockdiagramm
 
-![Schaltungsüberblick]({% link /assets/2018_mixed/fakealarmanlage/fakealarm_überblick.jpg %})
+{% include image.html file="/assets/2018_mixed/fakealarmanlage/fakealarm_überblick.jpg" description="Schaltungsüberblick" %}
 
 Auf diesem Bild ist nun zu sehen, wie alle Komponenten ineinander greifen und zusammen die geforderten Anforderungen erfüllen. Zwei Besonderheiten gilt es dabei aber genauer zu betrachten.
 
@@ -52,7 +52,7 @@ Vom USB-Stromadapter gehen zwei Verbindungskabel weg. Das eine geht zur Powerban
 
 Genau dieses Kabel liefert aber nun 5V Spannung, der ESP kann aber nur 3,3V ohne Schaden vertragen. Ich nehme hier einen Spannungsteiler aus drei gleichen Widerständen und komme so von 5V auf 3,3V. Wichtig ist auch noch, dass es eine gemeinsame Masse gibt:
 
-![Schaltplan des Spannungsteilers]({% link /assets/2018_mixed/fakealarmanlage/schaltplan_spannungsteiler.png %})
+{% include image.html file="/assets/2018_mixed/fakealarmanlage/schaltplan_spannungsteiler.png" description="Schaltplan des Spannungsteilers" %}
 
 ## Alles auf dem Steckbrett
 

@@ -19,11 +19,11 @@ Das Ziel für diese Episode soll ein LED Bar Graph sein, der vom Raspberry PI ko
 
 In  [Teil 2 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-23-02-LED-Blinken-lassen %}) haben wir ja schon die LED kennen gelernt. Ein LED Bar Graph oder 10 Segment-LED ist nun nichts anderes als zehn LEDs, die alle in einem Gehäuse untergebracht sind:
 
-![Detailaufnahme eines LED Bar Graphs]({% link /assets/pi-diy/3/detail_led_bar_graph.jpg %})
+{% include image.html file="/assets/pi-diy/3/detail_led_bar_graph.jpg" description="Detailaufnahme eines LED Bar Graphs" %}
 
 Das Bauteil ist sehr symmetrisch und unterscheidet sich nur dadurch, dass auf der einen Seite ein Aufdruck `HB10101k` ist, auf der anderen nicht. Eine LED hat aber nun genau eine Richtung, in der der Strom fließt und die LED leuchtet. Ich habe also nun zuerst einen Testaufbau gemacht um herauszufinden, an welche Seite der LED Leiste der Weg zu Plus und an welcher er zu Minus führen muss:
 
-![Testschaltung zum Finden der richtigen Polung]({% link /assets/pi-diy/3/bar_graph_eine_led.jpg %})
+{% include image.html file="/assets/pi-diy/3/bar_graph_eine_led.jpg" description="Testschaltung zum Finden der richtigen Polung" %}
 
 In dieser Schaltung benutze ich den Raspberry nur als Stromquelle, denn ich nutze nur GND und die 3,3V Leitung. Wichtig ist, dass man auch beim Testen den Vorwiderstand nicht vergisst. Ich hatte hier wieder den gleichen 220 Ohm Widerstand verwendet. Damit ist dann auf jeden Fall klar, dass die Seite, auf der die Schrift gedruckt ist, zu Minus bzw. zu Gnd (Ground) führen muss.
 
@@ -31,7 +31,7 @@ In dieser Schaltung benutze ich den Raspberry nur als Stromquelle, denn ich nutz
 
 Die komplette Schaltung ist etwas größer als die aus dem zweiten Teil, aber eigentlich nicht komplizierter. Ich verbinde zuerst GND des PIs mit der blauen Schiene des Steckbretts. Von dort mit jeweils einem Vorwiderstand mit einem Pin des LED Bar Graphs. Von der anderen Seite des LED Bar Graphs verbinde ich jeden PIN direkt mit einem GPIO Anschluss des PIs. auf dem Adapter des Steckbretts sind die Pins ja benannt und ich wähle einfach die, wo GPIO drauf steht und dann unter denen einfach diejenigen, die am nahesten dran sind. Die Pinnummern in der richtigen Reihenfolge brauchen wir später beim Programmieren, man kann die also schon mal aufschreiben. Meine komplette Schaltung sieht dann so aus:
 
-![Komplette Schaltung mit dem LED Bar Graph]({% link /assets/pi-diy/3/bar_graph_komplette_schaltung.jpg %})
+{% include image.html file="/assets/pi-diy/3/bar_graph_komplette_schaltung.jpg" description="Komplette Schaltung mit dem LED Bar Graph" %}
 
 ## Programmieren
 
@@ -43,7 +43,7 @@ In der `setup()`-Methode setze ich mit `size()` die Fenstergröße so, dass es e
 
 Jetzt kommt die Dynamik ins Spiel, denn mit `mouseX` kann ich die X-Koordinate des Mauscursors abfragen. Ich vergleiche diesen mit der X-Koordinate des aktuell zu zeichnenden Rechtecks und entscheide dann, ob ich es mittels `fill()` entweder rot oder schwarz ausgemalt zeichne. Wenn man alle Zahlenwerte dabei einigermaßen geschickt wählt, sieht es so aus:
 
-![Kurze Aufnahme der animierten Fensterfläche]({% link /assets/pi-diy/3/fensteranimation.gif %})
+{% include image.html file="/assets/pi-diy/3/fensteranimation.gif" description="Kurze Aufnahme der animierten Fensterfläche" %}
 
 Der Code bis hierhin ist wirklich übersichtlich:
 
@@ -125,4 +125,4 @@ Wenn du es bis hier hin geschafft hast und auch richtig mitgemacht hast, dann sp
 
 Du willst mehr? Versuche doch mal, ein automatisches Lauflicht zu schreiben, was immer hin und her geht und welches im Fenster und auf dem LED Bar Graph dargstellt wird:
 
-![Lauflicht]({% link /assets/pi-diy/3/lauflicht.gif %})
+{% include image.html file="/assets/pi-diy/3/lauflicht.gif" description="Lauflicht" %}

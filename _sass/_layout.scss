@@ -122,7 +122,7 @@ main {
       color: rgb(97, 97, 97);
     }
   }
-  @include media-query($on-palm) {
+  @include media-query(600px) {
     margin-bottom: 0;
   }
 }
@@ -133,7 +133,7 @@ main {
   margin-top: 1em;
   font-family: Tahoma, Geneva, sans-serif;
 
-  @include media-query($on-palm) {
+  @include media-query(600px) {
     margin-top: 12px;
   }
 
@@ -190,7 +190,7 @@ iframe {
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 30px;
   margin: 30px;
-  @include media-query($on-palm) {
+  @include media-query(600px) {
     margin: 0;
   }
   article {
@@ -198,7 +198,7 @@ iframe {
     border-radius: 5px;
 
     &:first-child {
-      padding: 30px;
+      padding: 30px 0;
       background-color: rgb(233, 245, 255);
       grid-column: span 12;
     }
@@ -241,14 +241,22 @@ article {
   display: grid;
   justify-content: center;
   align-content: start;
-  grid-template-columns: [full-start] 50px [std-start] minmax(100px, 1000px) [std-end] 50px [full-end];
+  grid-template-columns: [full-start] 10px [wide-start] 50px [std-start] minmax(100px, 1000px) [std-end] 50px [wide-end] 10px [full-end];
+
+  @include media-query(600px) {
+    grid-template-columns: [full-start] 10px [wide-start] 20px [std-start] 1fr [std-end] 20px [wide-end] 10px [full-end];
+  }
+
   * {
-    grid-column: full;
+    grid-column: wide;
   }
   p {
     grid-column: std;
-    @include media-query($on-palm) {
-      grid-column: full;
-    }
+  }
+  figure,
+  pre,
+  code,
+  .highlighter-rouge {
+    grid-column: full;
   }
 }

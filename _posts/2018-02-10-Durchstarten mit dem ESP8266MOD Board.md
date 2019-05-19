@@ -23,7 +23,7 @@ Auf der Webseite von Wemos gibt es den [Treiber als Download](https://wiki.wemos
 
 Als zweites braucht man dann die Arduino IDE. Die bekommt man als [Download auf der arduino.cc Webseite](https://www.arduino.cc/en/Main/Software). Ich habe die Variante "Windows Installer" gewählt. Nachdem der Download fertig ist, starte ich die exe und drücke solange auf Next bis alles fertig installiert ist.
 
-![Arduino Setup]({% link /assets/2018_mixed/arduino-1.8.5-ide-install.png %})
+{% include image.html file="/assets/2018_mixed/arduino-1.8.5-ide-install.png" description="Arduino Setup" %}
 
 ### Den ESP8266 in der Arduino IDE verfügbar machen
 
@@ -43,7 +43,7 @@ Jetzt sollte alles soweit sein, dass es läuft. Mittels eines USB-auf-microUSB-K
 
 Unter `Datei > Beispiele > esp8266` wähle ich jetzt `Blink`. Ein neues Fenster öffnet sich. Ich musste hier erneut `COM5` auswählen, das Board stimmt aber.
 
-![Arduino IDE kompiliert Blink Beispiel]({% link /assets/2018_mixed/esp8266_compiling_blink.png %})
+{% include image.html file="/assets/2018_mixed/esp8266_compiling_blink.png" description="Arduino IDE kompiliert Blink Beispiel" %}
 
 Nachdem Kompilieren hat das Board direkt angefangen das Programm auszuführen und ich sehe die LED jetzt blinken. Damit ist diese Anleitung am Ende angekommen.
 
