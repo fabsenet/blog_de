@@ -18,7 +18,7 @@ Ich habe den Wickeltischaufsatz für die Badewanne zuerst bei Tinkercad als Mini
 
 Du kannst dir das Modell auch gerne selbst [bei Tinkercad anschauen](https://www.tinkercad.com/things/6ZwW7RE8nSv):
 
-[{% include image.html file="/assets/2018_mixed/wickeltisch/tinkercad_design.jpg" description="Tinkercad Modell des Wickeltischaufsatzes für die Badewanne" %}](https://www.tinkercad.com/things/6ZwW7RE8nSv)
+{% include image.html file="/assets/2018_mixed/wickeltisch/tinkercad_design.jpg" description="Tinkercad Modell des Wickeltischaufsatzes für die Badewanne" %}
 
 ## Verwendete Materialen
 
