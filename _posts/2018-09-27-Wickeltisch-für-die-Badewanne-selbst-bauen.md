@@ -3,15 +3,13 @@ layout: post
 title: Wickeltisch für die Badewanne selbst bauen!
 categories: DIY
 author: Fabian Wetzel
-excerpt: >
-  Ich baue für den anstehenden Nachwuchs einen Wickeltischaufsatz für die Badewanne.
 
 ---
 
 ## Nachwuchs ist auf dem Weg!
 
 Wir haben schon im Ikea und bei Amazon alles leer gekauft. Was so ein kleines Etwas alles braucht ist echt beeindruckend. Jedenfalls habe ich mir sagen lassen, müssen die auch regelmäßíg gewickelt werden und dafür haben wir zuhause eine Wickelunterlage. Wir haben uns hier für eine schöne [Wickelauflage von Julius Zöllner](https://amzn.to/2OH8wSl) entschieden. Aber wo legt man die Unterlage nun drauf? Häufig sieht man, dass Aufsätze für Kommoden verwendet werden, aber das Kinderzimmer wird wohl die ersten Monate sonst nicht verwendet werden und deshalb wollen wir es noch nicht beheizen und im Schlafzimmer haben wir keinen Platz, daher kam mir die Idee, dass wir einen Wickelaufsatz für die Badewanne benutzen könnten.
-
+<!-- more -->
 Und was wäre ich, dieser Blog und der YouTube-Kanal, wenn ich das nicht in schöner DIY-Manier selbst gebaut hätte? Es ist im Prinzip eine Art Tisch, der an 3 der 4 Kanten eine Begrenzung hat.
 
 ## Designphase
