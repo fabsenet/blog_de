@@ -5,14 +5,12 @@ date:   2017-11-27 20:59:39 +0200
 categories: Videotest
 author: Fabian Wetzel
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/AeMER0vfAZM" frameborder="0" allowfullscreen></iframe>
-   <br />
    Mein Rasenmähroboter: Vorgestellt in einem ehrlichen Review mit Erfahrungen aus erster Hand über eine ganze Saison. Schau das Video oder ließ einfach weiter!
 
 ---
 ## Wer keine Lust auf Lesen hat, der schaut das Video! 🙄
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AeMER0vfAZM" frameborder="0" allowfullscreen></iframe>
+{% youtube AeMER0vfAZM %}
 
 [GARDENA 19060-60 smart SILENO Mähroboter](http://amzn.to/2iB8tJ9)
 

@@ -6,8 +6,7 @@ categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh5dHIY5I4k" frameborder="0" allowfullscreen></iframe>
-   <br />Das ist der Auftakt einer Serie von Beiträgen, die sich um das Basteln mit dem Raspberry PI dreht. Es geht mir um eine Kombination aus einfachen Schaltungen in Hardware, die mit den GPIO Pins des PIs angesteuert werden. Ich freue mich über jeden, der nicht nur mitliest bzw. mitschaut, sondern der auch wirklich sich hinsetzt und aktiv mitmacht! Die Belohnung dabei ist, dass jeder für sich etwas lernt und ein Gefühl des Erfolgs erhält, dass man etwas geschafft hat. Ich werde dabei...
+   Das ist der Auftakt einer Serie von Beiträgen, die sich um das Basteln mit dem Raspberry PI dreht. Es geht mir um eine Kombination aus einfachen Schaltungen in Hardware, die mit den GPIO Pins des PIs angesteuert werden. Ich freue mich über jeden, der nicht nur mitliest bzw. mitschaut, sondern der auch wirklich sich hinsetzt und aktiv mitmacht! Die Belohnung dabei ist, dass jeder für sich etwas lernt und ein Gefühl des Erfolgs erhält, dass man etwas geschafft hat. Ich werde dabei...
 ---
 ## Worum geht es?
 
@@ -15,7 +14,7 @@ Das ist der Auftakt einer Serie von Beiträgen, die sich um das Basteln mit dem 
 
 Ich freue mich über jeden, der nicht nur mitliest bzw. mitschaut, sondern der auch wirklich aktiv mitmacht! Die Belohnung dabei ist, dass jeder für sich etwas lernt und ein Gefühl des Erfolgs erhält, dass man etwas geschafft hat. Ich werde dabei jeden Abschnitt auch als Video veröffentlichen, so dass du die freie Wahl hast, entweder das Video zu schauen oder dein Beitrag zu lesen.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eh5dHIY5I4k" frameborder="0" allowfullscreen></iframe>
+{% youtube Eh5dHIY5I4k %}
 
 ## Benötigte Hardware um mitzumachen (kann man auch verschenken!)
 

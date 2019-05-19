@@ -4,15 +4,14 @@ title:  Durchstarten mit dem ESP8266MOD Board
 categories: ESP8266
 author: Fabian Wetzel
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/F6jAs4W8nn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <br />ESP8266 D1 mini mit WLAN und allem und dabei ist er sooo klein! Erstmal geht es nur um das Setup und ein erstes Programmieren!
+   ESP8266 D1 mini mit WLAN und allem und dabei ist er sooo klein! Erstmal geht es nur um das Setup und ein erstes Programmieren!
 
 ---
 ## Warum jetzt auf einmal der ESP8266?
 
 Ich habe diesen Microcontroller einem Freund (basierend auf dessen Wunschliste) geschenkt und dabei habe ich mir einfach auch drei eigene Boards mitbestellt. [Einer kostet bei amazon aktuell ca. 7€](http://amzn.to/2FUQNSQ). Nun will ich herausfinden, wie man mit dem ESP8266 arbeitet und was er so kann. In diesem Beitrag beschreibe ich, was zu tun ist, um das Board soweit zu bringen, dass die on-board LED blinkt. Es geht also vorallem um das richtige Setup. Hier als Video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F6jAs4W8nn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube F6jAs4W8nn4 %}
 
 ## Setupschritte
 

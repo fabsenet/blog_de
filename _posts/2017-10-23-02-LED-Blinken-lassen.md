@@ -6,12 +6,11 @@ categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
-   <br />Im zweiten Teil der jetzt schon legendären Tutorialserie geht es darum, eine LED blinken zu lassen. Schau dir das Video an oder
+   Im zweiten Teil der jetzt schon legendären Tutorialserie geht es darum, eine LED blinken zu lassen. Schau dir das Video an oder
 ---
 ## Eine LED muss blinken!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LfzduwrehVU" frameborder="0" allowfullscreen></iframe>
+{% youtube LfzduwrehVU %}
 
 Das Ziel für die erste richtige *Bastelarbeit* soll eine LED sein, die mittels des Raspberry PI und einem selbst geschriebenen Programm darauf zum Blinken gebracht wird. Eine blinkende LED als solches ist jetzt noch nicht super überragend, aber es wird viel Wissen benötigt, worauf spätere Lektionen dann aufbauen werden.
 

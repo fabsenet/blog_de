@@ -4,8 +4,7 @@ title:  Monitorständer selbst bauen (mit UPDATE!)
 categories: DIY
 author: Fabian Wetzel
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/OMyFelyCcG4" frameborder="0" allowfullscreen></iframe>
-   <br />Ich baue eine Halterung für meine äußeren Monitore um die hochkant betreiben zu können, was eigentlich nicht vorgesehen war.
+   Ich baue eine Halterung für meine äußeren Monitore um die hochkant betreiben zu können, was eigentlich nicht vorgesehen war.
 
 ---
 ## Warum brauche ich selbst gebaute Monitorständer?
@@ -16,7 +15,7 @@ Mein Schreibtisch beherbergt drei Monitore und seit einiger Zeit auch noch Monit
 
 Im Video erfährst du alles, falls du keine Lust hast, so viel Text zu lesen:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OMyFelyCcG4" frameborder="0" allowfullscreen></iframe>
+{% youtube OMyFelyCcG4 %}
 
 ### Design und Bau der Halterung
 

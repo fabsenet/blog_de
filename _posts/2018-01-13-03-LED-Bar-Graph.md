@@ -6,13 +6,12 @@ categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
 excerpt: >
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/ufCFPsbHTEg" frameborder="0" allowfullscreen></iframe>
-   <br />Im dritten Teil der Tutorialserie geht es um das Ansteuern einer 10 Segment-LED.
+   Im dritten Teil der Tutorialserie geht es um das Ansteuern einer 10 Segment-LED.
    Schau dir das Video an oder
 ---
 ## Wer eine LED steuern kann, kann auch 10 steuern?!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ufCFPsbHTEg" frameborder="0" allowfullscreen></iframe>
+{% youtube ufCFPsbHTEg %}
 
 Das Ziel für diese Episode soll ein LED Bar Graph sein, der vom Raspberry PI komplett gesteuert wird. Auf dem Raspberry PI soll ein Fenster zu sehen sein, wo man mittels der Maus beeinflussen können soll, welche Teile dieser 10fach LED leuchten sollen. Wie schon im letzten Teil der Serie erwähnt, verwende ich auch hier wieder das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T). Weiterhin benutze ich auch wieder einen [Raspberry Pi 3 Model B](http://amzn.to/2x6jwne), das Netzteil [Anker PowerPort+1 18W USB Ladegerät](http://amzn.to/2w1ACid) mit dem Kabel [Anker Micro USB Kabel](http://amzn.to/2y6RZib) und schließlich der Speicherkarte [SanDisk Ultra 16GB microSDHC](http://amzn.to/2x5IMtR). Wenn du über diese Links bei Amazon einkaufst, unterstützt du diese Serie 🙏! Ich verlinke die Sachen aber auch für dich, dass du weißt, was genau du brauchst und dir sicher sein kannst, dass diese Sachen zusammen funktionieren werden. Ich könnte mir das übrigens auch als Geschenk vorstellen...
 
