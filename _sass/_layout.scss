@@ -250,7 +250,8 @@ article {
   * {
     grid-column: wide;
   }
-  p {
+  p,
+  ul {
     grid-column: std;
   }
   figure,
