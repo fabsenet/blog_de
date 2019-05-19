@@ -1,31 +1,38 @@
+{% if false %}
 {% if page.comments != false and jekyll.environment == "production" %}
 
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
-    };
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = '{{ page.url | absolute_url }}';
+    this.page.identifier = '{{ page.url | absolute_url }}';
+  };
 
-    (function() {
-      var d = document, s = d.createElement('script');
+  (function () {
+    var d = document, s = d.createElement('script');
 
-      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+    s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
 
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>Bitte aktiviere JavaScript, da sonst keine Kommentare angezeigt werden können. <a href="https://disqus.com/?ref_noscript" rel="nofollow">Kommentare unterstützt durch Disqus.</a></noscript>
-  {% else %}
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Bitte aktiviere JavaScript, da sonst keine Kommentare angezeigt werden können. <a
+    href="https://disqus.com/?ref_noscript" rel="nofollow">Kommentare unterstützt durch Disqus.</a></noscript>
+{% else %}
 
-  <h1 style="color:red">Disqus Kommentare in Entwicklungsmodus nicht verfügbar</h1>
-  <div style="border: 1px solid red;margin: 5px; padding: 40px;">
-    <ul>
-      <li>this.page.url = '{{ page.url | absolute_url }}';</li>
-      <li>this.page.identifier = '{{page.url | absolute_url }}';</li>
-      <li>s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';</li>
-  </div>
+<h1 style="color:red">Disqus Kommentare in Entwicklungsmodus nicht verfügbar</h1>
+<div style="border: 1px solid red;margin: 5px; padding: 40px;">
+  <ul>
+    <li>this.page.url = '{{ page.url | absolute_url }}';</li>
+    <li>this.page.identifier = '{{page.url | absolute_url }}';</li>
+    <li>s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';</li>
+</div>
 
 
+{% endif %}
+
+{% else %}
+
+<p class="commentsdisabled">Kommentare sind abgeschaltet.</p>
 {% endif %}
