@@ -12,7 +12,17 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
     href="{{ "/feed.xml" | relative_url }}">
 
-  {% if jekyll.environment != "production" || site.baseurl=="/staging" || site.isstageconfig == true %}
+  {% if jekyll.environment != "production" || jekyll.environment == "development" || site.baseurl=="/staging" || site.isstageconfig == true %}
   <meta name="robots" content="none">
   {% endif %}
 </head>
+
+<ul>
+  <li>{{jekyll.environment}}</li>
+  <li>{{site.baseurl}}</li>
+  <li>{{site.isstageconfig}}</li>
+
+  {% if jekyll.environment != "production" || jekyll.environment == "development" || site.baseurl=="/staging" || site.isstageconfig == true %}
+  <li>robots none!!!</li>
+  {% endif %}
+</ul>
