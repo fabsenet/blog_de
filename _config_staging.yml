@@ -11,3 +11,6 @@ future: true
 
 # serve local:
 # bash -c "bundle exec jekyll serve --livereload --incremental --config _config.yml,_config_staging.yml"
+
+
+isstageconfig: true
