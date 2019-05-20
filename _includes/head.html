@@ -12,10 +12,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
     href="{{ "/feed.xml" | relative_url }}">
 
-  {% if jekyll.environment != "production" %}
+  {% if jekyll.environment != "production" || site.baseurl=="/staging" %}
   <meta name="robots" content="none">
   {% endif %}
-  </body>
-
-  </html>
 </head>
