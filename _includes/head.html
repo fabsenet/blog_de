@@ -16,13 +16,3 @@
   <meta name="robots" content="none">
   {% endif %}
 </head>
-
-<ul>
-  <li>{{jekyll.environment}}</li>
-  <li>{{site.baseurl}}</li>
-  <li>{{site.isstageconfig}}</li>
-
-  {% if jekyll.environment != "production" or jekyll.environment == "development" or site.baseurl=="/staging" or site.isstageconfig == true %}
-  <li>robots none!!!</li>
-  {% endif %}
-</ul>
