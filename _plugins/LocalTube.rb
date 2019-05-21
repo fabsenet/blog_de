@@ -1,12 +1,13 @@
-# Title: A better YouTube embed tag for Jekyll
-# Author: Tuan Anh Tran <http://tuananh.org>
+# Original Author: Tuan Anh Tran <http://tuananh.org>
+# Heavily modified by @fabsenet
+
 # Description: Out put a beautiful thumbnail image. Change to iframe on click.
 # Examples: 
 # {% youtube /v8o-Vd__I-A 560 315 %}
 # {% youtube http://youtu.be/v8o-Vd__I-A %}
 
 module Jekyll
-  class BetterTube < Liquid::Tag
+  class LocalTube < Liquid::Tag
     @ytid = nil
     @width = ''
     @height = ''
@@ -42,7 +43,8 @@ module Jekyll
           end
         end
         imgsrc = "#{context.registers[:site].config['baseurl']}/assets/yt_thumbs/#{id}.jpg"
-        thumbnail = "<figure class='BetterTube' data-youtube-id='#{id}' data-player-width='#{w}' data-player-height='#{h}' id='#{id}' style='padding-bottom: #{padding_bottom}'><a class='BetterTubePlayer' href='http://www.youtube.com/watch?v=#{id}' style='background: url(#{imgsrc}) 50% 50% no-repeat rgb(0, 0, 0);'>&nbsp;</a><div class='BetterTube-playBtn'></div>&nbsp;</figure>"
+        imgsrcwebp = "#{context.registers[:site].config['baseurl']}/assets/yt_thumbs/#{id}.webp"
+        thumbnail = "<figure class=\"LocalTube\" data-youtube-id=\"#{id}\"><picture><source srcset=\"#{imgsrcwebp}\" type=\"image/webp\"><img src=\"#{imgsrc}\"></picture><a class=\"LocalTubePlayer\" href=\"http://www.youtube.com/watch?v=#{id}\" target=\"_blank\"></a></figure>"
         
         video = %Q{#{thumbnail}}
 
@@ -53,4 +55,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('youtube', Jekyll::BetterTube)
+Liquid::Template.register_tag('youtube', Jekyll::LocalTube)

@@ -1,4 +1,8 @@
 <figure>
-    <img src="{% link {{include.file}} %}" alt="{{ include.description }}">
+    <picture>
+        <source srcset="{% link {{include.file | remove: ".jpg" | remove: ".gif" | remove: ".png"}}.webp %}"
+            type="image/webp">
+        <img src="{% link {{include.file}} %}" alt="{{ include.description }}">
+    </picture>
     <figcaption>{{ include.description }}</figcaption>
 </figure>

@@ -247,7 +247,7 @@ article {
     grid-template-columns: [full-start] 10px [wide-start] 20px [std-start] 1fr [std-end] 20px [wide-end] 10px [full-end];
   }
 
-  * {
+  > * {
     grid-column: wide;
   }
   p,
