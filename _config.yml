@@ -41,6 +41,7 @@
 #    - sudo gem install bundler    (in blog folder)
 #    - sudo gem install jekyll --pre    (in blog folder)
 #    - sudo apt install nodejs
+#    - choco install webp
 
 
 # - gem install jekyll fails? try (not needed for last fresh install run)
@@ -98,7 +99,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - LICENSE.txt
-  - push.ps1
+  - webp.ps1
   - azure-pipelines.yml
 
 include:
