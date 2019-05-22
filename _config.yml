@@ -86,6 +86,8 @@ plugins:
 jekyll-minifier:
   exclude: 'feed.xml'
   remove_intertag_spaces: true
+  uglifier_args:
+    harmony: true
   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
