@@ -1,3 +1,5 @@
+"use strict";
+
 if (document.body.addEventListener) {
     document.body.addEventListener('click', replaceThumbnailWithIframe, false);
 }
@@ -11,7 +13,7 @@ function replaceThumbnailWithIframe(e) {
     if (target.className.match(/LocalTubePlayer/)) {
         const aTag = target;
         const figureTag = target.parentNode;
-        id = figureTag.getAttribute('data-youtube-id');
+        let id = figureTag.getAttribute('data-youtube-id');
 
         figureTag.removeChild(aTag);
         const inner = `<iframe class="youtubePlayer" src="https://www.youtube.com/embed/${id}?autoplay=0&autohide=1&border=0&wmode=opaque&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />`;
