@@ -20,10 +20,10 @@
 # bash -c "bundle exec jekyll serve --future --drafts --livereload --incremental --config _config.yml,_config_staging.yml"
 
 # build for development:
-# bash -c "jekyll build --future"
+# bash -c "bundle exec jekyll build --future --drafts"
 
 # build for production:
-# bash -c "JEKYLL_ENV=production jekyll build"
+# bash -c "bundle exec JEKYLL_ENV=production jekyll build"
 
 
 # Install everything for windows 10
