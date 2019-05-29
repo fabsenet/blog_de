@@ -4,6 +4,7 @@ title: Frenchcleat Halter für die Kantenfräse
 categories: DIY
 date:   2019-05-29 16:14:39 +0200
 author: Fabian Wetzel
+permalink: /:categories/:title/
 ---
 ## Was soll ein Halter für die Kantenfräse leisten?
 
