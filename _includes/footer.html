@@ -2,7 +2,7 @@
 
   <h2><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h2>
 
-  <ul class="contact-list">
+  <ul>
     <li><span class="icon icon--person">{% include icon-person.svg %}</span>{{ site.author | escape }}</li>
     <li><span class="icon icon--mail">{% include icon-mail.svg %}</span><a
         href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -10,7 +10,7 @@
         href="{{ "/feed.xml" | relative_url }}">RSS-Feed dieser Seite</a></li>
   </ul>
 
-  <ul class="social-media-list">
+  <ul>
     {% if site.github_username %}
     <li>
       {% include icon-github.html username=site.github_username %}
