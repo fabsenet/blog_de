@@ -29,14 +29,14 @@ module Jekyll
         h = @height
         intrinsic = ((h.to_f / w.to_f) * 100)
         padding_bottom = ("%.2f" % intrinsic).to_s  + "%"
-      #  imgsrc = "http://img.youtube.com/vi/#{id}/hqdefault.jpg"
+      #  imgsrc = "http://img.youtube.com/vi/#{id}/maxresdefault.jpg"
         if !File.file?("./assets/yt_thumbs/#{id}.jpg")
-          puts "downloading http://img.youtube.com/vi/#{id}/hqdefault.jpg"
+          puts "downloading http://img.youtube.com/vi/#{id}/maxresdefault.jpg"
           #download the cover from youtube
           require 'net/http'
           # Must be somedomain.net instead of somedomain.net/, otherwise, it will throw exception.
           Net::HTTP.start("img.youtube.com") do |http|
-              resp = http.get("/vi/#{id}/hqdefault.jpg")
+              resp = http.get("/vi/#{id}/maxresdefault.jpg")
               open("./assets/yt_thumbs/#{id}.jpg", "wb") do |file|
                   file.write(resp.body)
               end

@@ -18,11 +18,11 @@ Auch diese Episode gibt es natürlich wieder als Video:
 
 Wie schon in den letzten Teilen der Serie erwähnt, verwende ich hier
 
-- das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T)
-- einen [Raspberry Pi 3 Model B](http://amzn.to/2x6jwne)
-- Netzteil [Anker PowerPort+1 18W USB Ladegerät](http://amzn.to/2w1ACid)
-- mit passendem Kabel [Anker Micro USB Kabel](http://amzn.to/2y6RZib) 
-- und schließlich der Speicherkarte [SanDisk Ultra 16GB microSDHC](http://amzn.to/2x5IMtR)
+- das [Freenove Ultimate Starter Kit for Raspberry Pi⭐](http://amzn.to/2halM2T)
+- einen [Raspberry Pi 3 Model B⭐](http://amzn.to/2x6jwne)
+- Netzteil [Anker PowerPort+1 18W USB Ladegerät⭐](http://amzn.to/2w1ACid)
+- mit passendem Kabel [Anker Micro USB Kabel⭐](http://amzn.to/2y6RZib)
+- und schließlich der Speicherkarte [SanDisk Ultra 16GB microSDHC⭐](http://amzn.to/2x5IMtR)
 
 *Wenn du über diese Links bei Amazon einkaufst, unterstützt du diese Serie!* Ich verlinke die Sachen aber auch für dich, dass du einfach weißt, was genau du brauchst und dir sicher sein kannst, dass diese Sachen zusammen funktionieren werden.
 

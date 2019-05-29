@@ -9,7 +9,7 @@ excerpt: >
 ---
 ## Warum jetzt auf einmal der ESP8266?
 
-Ich habe diesen Microcontroller einem Freund (basierend auf dessen Wunschliste) geschenkt und dabei habe ich mir einfach auch drei eigene Boards mitbestellt. [Einer kostet bei amazon aktuell ca. 7€](http://amzn.to/2FUQNSQ). Nun will ich herausfinden, wie man mit dem ESP8266 arbeitet und was er so kann. In diesem Beitrag beschreibe ich, was zu tun ist, um das Board soweit zu bringen, dass die on-board LED blinkt. Es geht also vorallem um das richtige Setup. Hier als Video:
+Ich habe diesen Microcontroller einem Freund (basierend auf dessen Wunschliste) geschenkt und dabei habe ich mir einfach auch drei eigene Boards mitbestellt. [Einer kostet bei amazon aktuell ca. 7€⭐](http://amzn.to/2FUQNSQ). Nun will ich herausfinden, wie man mit dem ESP8266 arbeitet und was er so kann. In diesem Beitrag beschreibe ich, was zu tun ist, um das Board soweit zu bringen, dass die on-board LED blinkt. Es geht also vorallem um das richtige Setup. Hier als Video:
 
 {% youtube F6jAs4W8nn4 %}
 

@@ -12,11 +12,11 @@ excerpt: >
 
 {% youtube AeMER0vfAZM %}
 
-[GARDENA 19060-60 smart SILENO Mähroboter](http://amzn.to/2iB8tJ9)
+[GARDENA 19060-60 smart SILENO Mähroboter⭐](http://amzn.to/2iB8tJ9)
 
 ## Ich lasse jetzt mähen 😎
 
-Das hier soll ein ehrliches Review sein und deshalb fange ich gleich mit dem Wichtigsten an: Dem Preis. Rasenmähroboter allgemein sind schon Luxus mit einem Preis von ca. 600€ an aufwärts. Dieser Rasenmäher kostet aktuell [<span title="Preis vom 26.11.2017 // amazon.de">1348€</span>](http://amzn.to/2iB8tJ9) und ist damit schon in der Premiumklasse, aber er liefert auch, was er verspricht.
+Das hier soll ein ehrliches Review sein und deshalb fange ich gleich mit dem Wichtigsten an: Dem Preis. Rasenmähroboter allgemein sind schon Luxus mit einem Preis von ca. 600€ an aufwärts. Dieser Rasenmäher kostet aktuell [<span title="Preis vom 26.11.2017 // amazon.de">1348€</span>⭐](http://amzn.to/2iB8tJ9) und ist damit schon in der Premiumklasse, aber er liefert auch, was er verspricht.
 
 Ich habe vorallem wegen des Preises lange mit mir selbst gehadert, ob ich kaufen soll, aber seit dem habe ich es nicht eine Sekunde bereut, denn was man sich hier kauft, ist _freie Zeit_. Man kauft sich den Luxus, nicht jede Woche unter dem Druck zu stehen, mähen zu müssen.
 

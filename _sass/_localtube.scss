@@ -9,12 +9,7 @@
     margin: 0 auto;
     overflow: hidden;
   }
-  img {
-    width: 100%;
-    margin: -9.5% 0;
-    display: block;
-    overflow: hidden;
-  }
+  img,
   picture {
     width: 100%;
     margin: 0;
@@ -54,6 +49,7 @@
       text-align: center;
       text-shadow: 0px 0px 5px #000000;
       font-size: 24px;
+      background-color: #000000bb;
     }
   }
 

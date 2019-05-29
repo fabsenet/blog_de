@@ -14,7 +14,7 @@ excerpt: >
 
 Das Ziel für die erste richtige *Bastelarbeit* soll eine LED sein, die mittels des Raspberry PI und einem selbst geschriebenen Programm darauf zum Blinken gebracht wird. Eine blinkende LED als solches ist jetzt noch nicht super überragend, aber es wird viel Wissen benötigt, worauf spätere Lektionen dann aufbauen werden.
 
-Wie schon in der Einleitung erwähnt, habe ich das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T) ausgesucht, um meine Tutorialserie darauf aufzubauen. Alle verwendeten Bauteile findest du in [Teil 1 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-04-01 Einführung,Installation Raspbian,Installation Processing %}).
+Wie schon in der Einleitung erwähnt, habe ich das [Freenove Ultimate Starter Kit for Raspberry Pi⭐](http://amzn.to/2halM2T) ausgesucht, um meine Tutorialserie darauf aufzubauen. Alle verwendeten Bauteile findest du in [Teil 1 dieser Serie]({{ site.baseurl }}{% post_url 2017-10-04-01 Einführung,Installation Raspbian,Installation Processing %}).
 
 ## Logische Schaltung
 
@@ -61,7 +61,7 @@ Im Mittelpunkt der Schaltung steht vor allem das Steckbrett:
 
 Ein Steckbrett ist super geeignet, da man hiermit Schaltungen sehr schnell zusammenstecken kann. Außerdem muss man nicht Löten. Das spart Zeit und man ist auch flexibler. Auf dem Bild habe ich rote Rechtecke als farbliche Überlagerungen gemalt. Alle Löcher innerhalb eines Rechtecks sind leitend verbunden. Ich denke, das Muster sollte klar sein, auch wenn ich nicht alle Rechtecke gemalt habe.
 
-Das [Freenove Ultimate Starter Kit for Raspberry Pi](http://amzn.to/2halM2T) enthält nun nicht nur das Steckbrett, sondern auch einen Aufsatz, der auf einfache Art und Weise ein *Weiterleiten* des GPIO Anschlusses des Raspberrys erlaubt. Den Adapter selbst steckt man einfach auf das Steckbrett. Dann muss man nur noch das Flachbandkabel mit dem Adapter und dem PI verbinden. Der Adapter hat eine Aussparung, so dass man das Kabel hier nicht verdreht aufsetzen kann. Auf der Seite des PIs kann man das Kabel aber tatsächlich falsch aufsetzen. Hier hilft das folgende Foto:
+Das [Freenove Ultimate Starter Kit for Raspberry Pi⭐](http://amzn.to/2halM2T) enthält nun nicht nur das Steckbrett, sondern auch einen Aufsatz, der auf einfache Art und Weise ein *Weiterleiten* des GPIO Anschlusses des Raspberrys erlaubt. Den Adapter selbst steckt man einfach auf das Steckbrett. Dann muss man nur noch das Flachbandkabel mit dem Adapter und dem PI verbinden. Der Adapter hat eine Aussparung, so dass man das Kabel hier nicht verdreht aufsetzen kann. Auf der Seite des PIs kann man das Kabel aber tatsächlich falsch aufsetzen. Hier hilft das folgende Foto:
 
 {% include image.html file="/assets/pi-diy/2/raspi_gpio_kabel.jpg" description="Raspberry PI3 mit GPIO Flachbandkabel" %}
 
