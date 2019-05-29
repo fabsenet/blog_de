@@ -8,7 +8,7 @@ author: Fabian Wetzel
 
 ## Nachwuchs ist auf dem Weg!
 
-Wir haben schon im Ikea und bei Amazon alles leer gekauft. Was so ein kleines Etwas alles braucht ist echt beeindruckend. Jedenfalls habe ich mir sagen lassen, müssen die auch regelmäßíg gewickelt werden und dafür haben wir zuhause eine Wickelunterlage. Wir haben uns hier für eine schöne [Wickelauflage von Julius Zöllner](https://amzn.to/2OH8wSl) entschieden. Aber wo legt man die Unterlage nun drauf? Häufig sieht man, dass Aufsätze für Kommoden verwendet werden, aber das Kinderzimmer wird wohl die ersten Monate sonst nicht verwendet werden und deshalb wollen wir es noch nicht beheizen und im Schlafzimmer haben wir keinen Platz, daher kam mir die Idee, dass wir einen Wickelaufsatz für die Badewanne benutzen könnten.
+Wir haben schon im Ikea und bei Amazon alles leer gekauft. Was so ein kleines Etwas alles braucht ist echt beeindruckend. Jedenfalls habe ich mir sagen lassen, müssen die auch regelmäßíg gewickelt werden und dafür haben wir zuhause eine Wickelunterlage. Wir haben uns hier für eine schöne [Wickelauflage von Julius Zöllner⭐](https://amzn.to/2OH8wSl) entschieden. Aber wo legt man die Unterlage nun drauf? Häufig sieht man, dass Aufsätze für Kommoden verwendet werden, aber das Kinderzimmer wird wohl die ersten Monate sonst nicht verwendet werden und deshalb wollen wir es noch nicht beheizen und im Schlafzimmer haben wir keinen Platz, daher kam mir die Idee, dass wir einen Wickelaufsatz für die Badewanne benutzen könnten.
 <!-- more -->
 Und was wäre ich, dieser Blog und der YouTube-Kanal, wenn ich das nicht in schöner DIY-Manier selbst gebaut hätte? Es ist im Prinzip eine Art Tisch, der an 3 der 4 Kanten eine Begrenzung hat.
 
@@ -42,7 +42,7 @@ Wenn ich das Untergestell nochmal bauen würde, würde ich darüber nachdenken, 
 
 {% youtube dZLcEujgOjw %}
 
-Die Aufbau besteht aus Multiplex und ich musste eine Platte vergrößern, da die größte Platte, die ich hatte (und die ich mit dem Auto transportiert bekomme) in einer Richtung nicht lang genug ist für die Wickelunterlage. Ich habe mir die geradeste Kante an der Platte gesucht und eine weitere Platte mit einer möglichst geraden Kante dazu. In beide habe ich mit der Oberfräse eine Art Treppenstufe rein gefräst über die gesamte Kante. Diese *Treppenstufe* habe ich dabei genau halb so dick wie die Platte gemacht. Der Fräser, den ich dafür verwendet habe, hat ein Kugellager unten und damit bin ich die Kante der Platte abgefahren. Über dem Kugellager schneidet er dann in die Platte rein und nimmt ca. 10mm Material ab. Es handelt sich im Prinzip um einen Bündigfräser, bei dem die Messer weiter außen sind. [Diesen Fräser gibts im Set!](http://amzn.to/1RxnbKb)
+Die Aufbau besteht aus Multiplex und ich musste eine Platte vergrößern, da die größte Platte, die ich hatte (und die ich mit dem Auto transportiert bekomme) in einer Richtung nicht lang genug ist für die Wickelunterlage. Ich habe mir die geradeste Kante an der Platte gesucht und eine weitere Platte mit einer möglichst geraden Kante dazu. In beide habe ich mit der Oberfräse eine Art Treppenstufe rein gefräst über die gesamte Kante. Diese *Treppenstufe* habe ich dabei genau halb so dick wie die Platte gemacht. Der Fräser, den ich dafür verwendet habe, hat ein Kugellager unten und damit bin ich die Kante der Platte abgefahren. Über dem Kugellager schneidet er dann in die Platte rein und nimmt ca. 10mm Material ab. Es handelt sich im Prinzip um einen Bündigfräser, bei dem die Messer weiter außen sind. [Diesen Fräser gibts im Set!⭐](http://amzn.to/1RxnbKb)
 
 {% include image.html file="/assets/2018_mixed/wickeltisch/fräser.jpg" description="Fräser" %}
 
@@ -57,7 +57,7 @@ Dann habe ich die Seitenteile und die Rückwand mit sich und mit der Bodenplatte
 
 ### Schleifen und Lackieren
 
-Ich habe alle Kanten noch schnell mit einem Abrundfräser bearbeitet. Das macht mit meiner neu angeschafften [Bosch Akkufräse](https://amzn.to/2LX898t) auf jeden Fall richtig Spaß und danach hat man das Gefühl, dass alles einfach zwei Nummern professioneller war. Das macht wirklich einen riesen Unterschied.
+Ich habe alle Kanten noch schnell mit einem Abrundfräser bearbeitet. Das macht mit meiner neu angeschafften [Bosch Akkufräse⭐](https://amzn.to/2LX898t) auf jeden Fall richtig Spaß und danach hat man das Gefühl, dass alles einfach zwei Nummern professioneller war. Das macht wirklich einen riesen Unterschied.
 
 {% include image.html file="/assets/2018_mixed/wickeltisch/bosch_akkufräse.jpg" description="Kanten abrunden" %}
 

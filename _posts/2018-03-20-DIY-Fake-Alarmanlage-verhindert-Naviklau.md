@@ -24,7 +24,7 @@ Es soll eine LED blinken, aber ich will mich nicht der Gefahr aussetzen, dass da
 
 Das erste Ziel ist, dass eine LED blinkt. Dafür brauche ich ganz offensichtlich eine LED.
 
-Blinken lasse ich die LED mittels eines Mikrokontrollers. Da käme jetzt vermutlich jeder in Frage, aber ich habe den Wemos D1 Mini hier (bzw. das dazu kompatible Modul [AZDelivery D1 Mini NodeMcu Lua ESP8266 ESP-12E](http://amzn.to/2G73T37)), daher nehme ich den auch direkt. Der ist eigentlich viel zu leistungsfähig, aber auch angenehm klein. Damit ist das erste Ziel einer blinkenden LED schon erreicht.
+Blinken lasse ich die LED mittels eines Mikrokontrollers. Da käme jetzt vermutlich jeder in Frage, aber ich habe den Wemos D1 Mini hier (bzw. das dazu kompatible Modul [AZDelivery D1 Mini NodeMcu Lua ESP8266 ESP-12E⭐](http://amzn.to/2G73T37)), daher nehme ich den auch direkt. Der ist eigentlich viel zu leistungsfähig, aber auch angenehm klein. Damit ist das erste Ziel einer blinkenden LED schon erreicht.
 
 ### 2. Keine Gefahr der Entladung der Autobatterie 🔋
 
@@ -32,7 +32,7 @@ Als nächstes muss die Fakealarmanlage mit Strom versorgt werden und da ich eine
 
 ### 3. Keine Umbaumaßnahmen am Auto 🚗
 
-Das dritte Ziel ist nun, die Powerbank ohne Umbaumaßnahmen am Auto zu laden. Hier nehme ich ein [Auto-USB-Ladegerät](http://amzn.to/2IEdT2n). Man muss dabei eigentlich nur testen, ob das Zielauto die Steckdosen mit der Zündung schaltet. Wenn dem so ist, wird der Akku immer während der Fahrt aufgeladen. Ziel erreicht!
+Das dritte Ziel ist nun, die Powerbank ohne Umbaumaßnahmen am Auto zu laden. Hier nehme ich ein [Auto-USB-Ladegerät⭐](http://amzn.to/2IEdT2n). Man muss dabei eigentlich nur testen, ob das Zielauto die Steckdosen mit der Zündung schaltet. Wenn dem so ist, wird der Akku immer während der Fahrt aufgeladen. Ziel erreicht!
 
 ### 4. Automatische an/aus-schalten des Blinkens 🕹️
 
@@ -120,7 +120,7 @@ Die hohe Kapazität ist natürlich nett für eine lange Laufzeit, tatsächlich i
 
 Der ESP ist damit dann stromlos, wenn er eigentlich blinken müsste und er geht auch nicht von selbst wieder an. Bei meinen anderen Powerbanks im Haushalt hilft hier nur "Taste drücken" oder Kabel kurz ausstecken und wieder einstecken. Im Zweifel kann man vorhandene Powerbanks aber schnell testen bevor man eine kauft.
 
-Ich verwende die Powerbank mit dem sperrigen Namen [EasyAcc 20000mAh Externer Akku PowerBank mit 4 USB Ausgängen (4A Eingang 4.8A Smart Ausgang)](http://amzn.to/2u6UHqY) und kann sagen, dass dieses Modell Passthrough Charging unterstützt. Dieses Feature wird leider nicht genannt - weder bei diesem noch bei anderen Modellen.
+Ich verwende die Powerbank mit dem sperrigen Namen [EasyAcc 20000mAh Externer Akku PowerBank mit 4 USB Ausgängen (4A Eingang 4.8A Smart Ausgang)⭐](http://amzn.to/2u6UHqY) und kann sagen, dass dieses Modell Passthrough Charging unterstützt. Dieses Feature wird leider nicht genannt - weder bei diesem noch bei anderen Modellen.
 
 ## Disclaimer
 
@@ -128,9 +128,9 @@ Die Produktlinks hier sind Affiliatelinks. Wenn du darüber bestellst, kostet es
 
 Hier nochmal alle Produkte:
 
-- Powerbank: [EasyAcc 20000mAh Externer Akku PowerBank mit 4 USB Ausgängen (4A Eingang 4.8A Smart Ausgang)](http://amzn.to/2u6UHqY)
-- Kit mit Steckbrett und LEDs usw.: [Elegoo Electronic Fun Kit Breadboard Kabel Widerstand Kondensator LED Potentiometer für Arduino Learning Kit, UNO, MEGA2560 Arduino Electronic Kit](http://amzn.to/2G6wSnT)
-- Auto USB-Ladegerät: [Anker PowerDrive 2 Elite 24W 2 Port Kfz Ladegerät, Auto Ladegerät mit PowerIQ Technologie für iPhone, iPad Air / Mini, Samsung Galaxy / Note, HTC, LG, Huawei, Xiaomi, alle Smartphones, Tablets, Bluetooth Geräten, Powerbank und mehr](http://amzn.to/2IEdT2n)
+- Powerbank: [EasyAcc 20000mAh Externer Akku PowerBank mit 4 USB Ausgängen (4A Eingang 4.8A Smart Ausgang)⭐](http://amzn.to/2u6UHqY)
+- Kit mit Steckbrett und LEDs usw.: [Elegoo Electronic Fun Kit Breadboard Kabel Widerstand Kondensator LED Potentiometer für Arduino Learning Kit, UNO, MEGA2560 Arduino Electronic Kit⭐](http://amzn.to/2G6wSnT)
+- Auto USB-Ladegerät: [Anker PowerDrive 2 Elite 24W 2 Port Kfz Ladegerät, Auto Ladegerät mit PowerIQ Technologie für iPhone, iPad Air / Mini, Samsung Galaxy / Note, HTC, LG, Huawei, Xiaomi, alle Smartphones, Tablets, Bluetooth Geräten, Powerbank und mehr⭐](http://amzn.to/2IEdT2n)
 
 ## Noch Fragen? 🙋
 
