@@ -17,7 +17,9 @@ Weiterhin bastel ich gerne, so dass eine Lösung, die mehr Richtung DIY und Bast
 
 ## Video zum Blogeintrag
 
-TODO
+Schau dir gerne das Video an!
+
+{% youtube KMgIa0l_ukQ %}
 
 ## Und was nun genau?
 
