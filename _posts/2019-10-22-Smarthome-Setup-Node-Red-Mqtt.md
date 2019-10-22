@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smarthome PI Installation mit Raspbian, Node-Red und Mosquitto"
-date:   2019-10-20 21:30:00 +0200
+date:   2019-10-22 17:50:00 +0200
 categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
