@@ -21,17 +21,21 @@ Du startest auf der Weboberfläche deiner Node-Red-Instanz (bei mir ist es z.B. 
 
 {% include image.html file="/assets/Smarthome/NodeRedPaletteVerwalten.png" description="Node-Red: Palette verwalten" %}
 
-Im sich öffnenden Menü, geht man auf den Reiter `installieren` und benutzt dann die Suche, um das Paket mit dem Namen [`node-red-contrib-tplink-iot`](https://github.com/adreno369/node-red-contrib-tplink-iot/issues) zu finden und mit einem weiteren Klick zu installieren. Achtung, bei mir hat das Installieren durchaus ca. 2 Minuten gedauert, ohne dass sich im Benutzerinterface in der Zeit irgendwas großartig getan hat.
+Im sich öffnenden Menü, geht man auf den Reiter `installieren` und benutzt dann die Suche, um das Paket mit dem Namen [`node-red-contrib-tplink-iot`](https://github.com/adreno369/node-red-contrib-tplink-iot/) zu finden und mit einem weiteren Klick zu installieren. Achtung, bei mir hat das Installieren durchaus ca. 2 Minuten gedauert, ohne dass sich im Benutzerinterface in der Zeit irgendwas großartig getan hat.
 
 {% include image.html file="/assets/Smarthome/node-red-contrib-tplink-iot.png" description="Node-Red: Paket node-red-contrib-tplink-iot installieren" %}
 
 Wenn man die Installation abgeschlossen hat, hat man in der Nodes-Palette zwei neue Nodes:
 
-{% include image.html file="/assets/Smarthome/node-red-contrib-tplink-iot.png" description="Nodes des Addons node-red-contrib-tplink-iot" %}
+{% include image.html file="/assets/Smarthome/node-red-contrib-tplink-iot-nodes.png" description="Nodes des Addons node-red-contrib-tplink-iot" %}
 
 ## Nötige Vorbereitungen
 
 Die WLAN-Steckdosen müssen mittels der normalen KASA App ([Google Play Store](https://play.google.com/store/apps/details?id=com.tplink.kasa_android&hl=de); gibt bestimmt auch was für Apple) von TP-Link in das eigene WLAN gebracht werden. Falls man das ohne die App hinbekommen kann, lass es mich gerne wissen! Anschließend brauchst du die IP-Adresse, die die Steckdose erhalten hat.
 
 ## Die neuen Nodes verwenden
+
+Um auszuprobieren, was die neue `Smart plug` Node so kann, habe ich einen ganz einfachen Flow gemacht. Es gibt viele verschiedene Inject Nodes, die alle in die `Smart Plug` Node laufen und die dann einfach mit einer `Debug`-Node die Ausgaben in der Debugausgabe ausgibt, so dass man die sich ansehen kann:
+
+{% include image.html file="/assets/Smarthome/node-red-contrib-tplink-iot-sample.png" description="Smart Plug Node ausprobiert." %}
 
