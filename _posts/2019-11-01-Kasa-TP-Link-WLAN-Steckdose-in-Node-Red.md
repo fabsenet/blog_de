@@ -13,7 +13,7 @@ Ich habe ja im [Letzten Post]({{ site.baseurl }}{% post_url 2019-10-22-Smarthome
 
 ### ...oder du schaust einfach das Video
 
-{ % youtube TODO % }
+{ % youtube VAjPetvCM8g % }
 
 ## Installation des Node-Red Addons
 
@@ -99,3 +99,5 @@ Ich habe aus Spaß auf die Messdose eine normale WLAN-Steckdose gesteckt und der
 ```
 
 Wenn die Steckdose ausgeschaltet it, verbraucht sie ca. 0,45W, wenn sie angeschaltet ist, nimmt sie 1,1W.
+
+Den Quellcode des Addons findest du auf [Github](https://github.com/adreno369/node-red-contrib-tplink-iot), dort kann man auch alle Events nachlesen, denn es gibt noch einige mehr.
