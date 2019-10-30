@@ -13,7 +13,7 @@ Ich habe ja im [Letzten Post]({{ site.baseurl }}{% post_url 2019-10-22-Smarthome
 
 ### ...oder du schaust einfach das Video
 
-{ % youtube VAjPetvCM8g % }
+{% youtube VAjPetvCM8g %}
 
 ## Installation des Node-Red Addons
 
