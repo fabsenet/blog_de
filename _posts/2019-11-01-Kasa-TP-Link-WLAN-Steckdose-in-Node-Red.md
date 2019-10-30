@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kasa TP-Link WLAN-Steckdose in Node-Red verwenden"
-date:   2019-11-01 17:50:00 +0200
+date:   2019-10-30 19:00:00 +0200
 categories: Raspberry-PI-DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
