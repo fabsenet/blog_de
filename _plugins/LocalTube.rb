@@ -51,9 +51,9 @@ module Jekyll
           imgsrc = "#{context.registers[:site].config['baseurl']}/assets/yt_thumbs/#{id}.jpg"
           imgsrcwebp = "#{context.registers[:site].config['baseurl']}/assets/yt_thumbs/#{id}.webp"
           thumbnail = "<figure class=\"LocalTube\" data-youtube-id=\"#{id}\"><picture><source srcset=\"#{imgsrcwebp}\" type=\"image/webp\"><img src=\"#{imgsrc}\"></picture><a class=\"LocalTubePlayer\" href=\"http://www.youtube.com/watch?v=#{id}\" target=\"_blank\"></a></figure>"
-          
-          video = %Q{#{thumbnail}}
 
+          video = %Q{#{thumbnail}}
+        end
       else
         "Error while processing. Try: {% youtube video_id [width height] %}"
       end
