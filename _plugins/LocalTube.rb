@@ -29,7 +29,7 @@ module Jekyll
           thumbnail = "<h1 style=\"color: red;\">YOUTUBE VIDEO ID IS TODO !!!</h1>"
           video = %Q{#{thumbnail}}
 
-        else
+        elsif
 
           id = @ytid
           w = @width
