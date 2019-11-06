@@ -43,7 +43,7 @@ Das Schalten der Steckdose ist das Einfachste, man benötigt lediglich eine Nach
 
 Alle anderen Kommandos sind vom Typ `string` und geben ein Wort an, was man machen möchte. Sinnvoll ist hier `getInfo`. Man bekommt eine Antwort, die den aktuellen Zustand der Steckdose umfasst:
 
-```json
+```javascript
 {
     "sw_ver": "1.5.4 Build 180815 Rel.121440",
     "hw_ver": "2.0",
@@ -70,7 +70,7 @@ Diese Antwort bekommt man nur einmalig, wenn man sozusagen danach fragt. Möchte
 
 Wer die Variante mit der Strommessfunktion hat, kann mit `getMeterInfo` einmalig oder mit `getMeterEvents` regelmäßig Infos über den Stromverbrauch bekommen.
 
-```json
+```js
 {
     "voltage_mv": 229429,
     "current_ma": 148,
@@ -87,7 +87,7 @@ Denkbar ist hier eine Automatisierung, die z.B. auf Basis des Stromverbrauchs er
 
 Ich habe aus Spaß auf die Messdose eine normale WLAN-Steckdose gesteckt und deren eigenen Strombedarf zu ermitteln:
 
-```json
+```javascript
 {
     "voltage_mv": 229438,
     "current_ma": 16,
