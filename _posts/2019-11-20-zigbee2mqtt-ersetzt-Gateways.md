@@ -28,6 +28,6 @@ Diese Lösung ist günstiger und flexibler als gekaufte Bridges und [unterstütz
 
 {% youtube cxxZcjEVWmI %}
 
-## sonst nix
+## sonst nix?
 
 Dieser Beitrag endet hier schon. 😶
