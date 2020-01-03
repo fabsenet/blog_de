@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kaffeemaschine verbessern mit dem 3D Drucker"
-date:   2020-01-03 19:00:00 +0200
+date:   2020-01-03 09:00:00 +0200
 categories: DIY
 author: Fabian Wetzel
 permalink: /:categories/:title/
@@ -9,7 +9,7 @@ permalink: /:categories/:title/
 
 ## 3D Drucker sinnvoll einsetzen
 
-Ich hab seit kurzen einen 3D Drucker und mir schon länger gesagt, wenn ich mal einen habe, dann modifiziere ich die Kaffeemaschine! Ich habe den [Philips HD8829/01 3000 Serie Kaffeevollautomat von Amazon⭐](http://amzn.to/2ettRyE). Kurzgesagt ist es einfach so, dass nicht genug Bohnen in Bohnenfach passen und die Maschine auch ständig einige Bohnen verschwendet, wenn sie gerade leer werden. Das hat mich genervt, also habe ich angefangen einen Aufsatz zu designen, wie man das Fach nach oben vergrößern kann.
+Ich hab seit kurzen einen 3D Drucker und mir schon länger gesagt, wenn ich mal einen habe, dann modifiziere ich die Kaffeemaschine! Ich habe den [Philips HD8829/01 3000 Serie Kaffeevollautomat⭐](http://amzn.to/2ettRyE). Kurzgesagt ist es einfach so, dass nicht genug Bohnen in Bohnenfach passen und die Maschine auch ständig einige Bohnen verschwendet, wenn sie gerade leer werden. Das hat mich genervt, also habe ich angefangen einen Aufsatz zu designen, wie man das Fach nach oben vergrößern kann.
 
 ## die ganze Geschichte gibt es auch im Video
 
@@ -46,4 +46,4 @@ Das fertige Ergebnis ist (nach einigen Fehlversuchen) recht gut geworden. Ich ha
 
 ## Download
 
-Ich habe ein Github Repository erstellt, was die STL-Dateien und die ursprüngliche Blenderdatei enthält. Bei den STLs ist die erste das eigentliche Objekt und das zweite ist ein Supportblocker. Der Mittelteil muss bis zu den ersten paar mm mit Supports gedruckt werden, aber weiter oben geht alles ohne Supports. Die Dateien findest du im [Github Repository "fabsenet/3d-kaffee-extension"](https://github.com/fabsenet/3d-kaffee-extension). Du kannst mit den Dateien nahezu alles machen, die MIT Lizenz erlaubt ja recht viel.
+Ich habe ein Github Repository erstellt, was die STL-Dateien und die ursprüngliche Blenderdatei enthält. Bei den STLs ist die erste das eigentliche Objekt und das zweite ist ein Supportblocker. Der Mittelteil muss bis zu den ersten paar mm mit Supports gedruckt werden, aber weiter oben geht alles ohne Supports. Die Dateien findest du im [Github Repository "fabsenet/3d-kaffee-extension"](https://github.com/fabsenet/3d-kaffee-extension) oder bei [Thingiverse](https://www.thingiverse.com/thing:4081676).
