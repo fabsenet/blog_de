@@ -30,7 +30,7 @@ Als zweites braucht man dann die Arduino IDE. Die bekommt man als [Download auf 
 Weiter geht es direkt in der Arduino IDE. Von der offiziellen [esp8266 GitHub Seite](https://github.com/esp8266/Arduino) habe ich die Boardmanager URL bezogen. Aktuell ist das:
 
 ```text
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 
 Unter `Datei > Voreinstellungen` trägt man diese URL unter "Zusätzliche Boardverwalter URLs" ein.
