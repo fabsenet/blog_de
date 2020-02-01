@@ -34,19 +34,19 @@ Wenn man das jetzt gemacht hat, hat man ein Stromkabel am Drucker, ein Stromkabe
 
 ### PI Gehäuse am Drucker!
 
-Naja und wie wird es eine Einheit? in dem der PI am Drucker direkt untergebracht wird! Ich habe ein gutes Gehäuse gefunden für den (PI3)[https://www.thingiverse.com/thing:3759782] (oder (PI4)[https://www.thingiverse.com/thing:3811421]) welches direkt am Drucker angebracht wird. Ich hatte einige Probleme damit, dass eine Seite sich beim Drucken ständig verformt hat, so hatte ich das Gehäuse mehrfach gedruckt. Im Video siehst du, wie ich zwischendurch auch einige Löcher im Gehäuse in Blender schließe, da ich sie nicht brauche.
+Naja und wie wird es eine Einheit? in dem der PI am Drucker direkt untergebracht wird! Ich habe ein gutes Gehäuse gefunden für den [PI3](https://www.thingiverse.com/thing:3759782) (oder [PI4](https://www.thingiverse.com/thing:3811421)) welches direkt am Drucker angebracht wird. Ich hatte einige Probleme damit, dass eine Seite sich beim Drucken ständig verformt hat, so hatte ich das Gehäuse mehrfach gedruckt. Im Video siehst du, wie ich zwischendurch auch einige Löcher im Gehäuse in Blender schließe, da ich sie nicht brauche.
 
 ### Gehäusebestückung, Lüfter, Spannungsversorgung
 
 Das Gehäuse ist so gemacht, dass ein 40mm Lüfter angebracht werden kann. Ich benutze hier einen Noctua-Lüfter für 5V, den kann man direkt an den GPIO Pins des PIs anschließen und der hält den PI dann schön kühl. Gerade wenn man einen PI4 verwendet ist das wichtig. Leistungsmäßig ist der PI3 aber vollkommen ausreichen für Octoprint. Ich hatte einen PI4 probiert, hab dann aber wieder nur einen PI3 in Verwendung, es reicht einfach aus.
 
-Um dann noch die seperate Stromversorgung los zu werden, habe ich in dem Gehäuse auch noch einen Step-Down Spannungsregler untergebracht. Den Strom hole ich mir vom Drucker direkt und schleife ein Kabel durch das Druckermainboard durch. Es ist ziemlich fummelig, muss man halt entscheiden, ob man das machen will. Den Spannungsregler habe ich dann so eingestellt, dass er aus den 24V verlässlich 5V macht und habe dann den Ausgang ebenfalls mit den richtigen GPIOs des PIs verbunden. Es gibt verschiedene Diskussionen darüber, ob es gut und richtig ist, den PI durch den GPIO mit Strom zu versorgen. Ich kann dazu nur sagen, ich hab es gemacht und seit dem auch schon 20 oder 30 Stunden Dinge gedruckt und es läuft stabil bisher.
+Um dann noch die seperate Stromversorgung los zu werden, habe ich in dem Gehäuse auch noch einen [Step-Down Spannungsregler](https://amzn.to/2uPHTWP) untergebracht. Den Strom hole ich mir vom Drucker direkt und schleife ein Kabel durch das Druckermainboard durch. Es ist ziemlich fummelig, muss man halt entscheiden, ob man das machen will. Den Spannungsregler habe ich dann so eingestellt, dass er aus den 24V verlässlich 5V macht und habe dann den Ausgang ebenfalls mit den richtigen GPIOs des PIs verbunden. Es gibt verschiedene Diskussionen darüber, ob es gut und richtig ist, den PI durch den GPIO mit Strom zu versorgen. Ich kann dazu nur sagen, ich hab es gemacht und seit dem auch schon 20 oder 30 Stunden Dinge gedruckt und es läuft stabil bisher.
 
 Dann habe ich noch ein super kurzes USB-Kabel für die Verbindung von Drucker und PI gekauft und jetzt sieht es echt richtig aufgeräumt auf.
 
 ## Mod 2: Webcam für den Drucker
 
-Also muss ich viel schreiben, warum eine Webcam sinnvoll ist? Selbst wenn man zu Hause ist, während der Drucker druckt, sitzt man ja nicht die ganze Zeit daneben. Ich kann jetzt immer einfach das Handy zücken und man kurz nachsehen, ob noch alles gut aussieht. Octoprint unterstützt super viele Webcams, besonders beliebt scheinen aber die Logitech C270, die Logitech C920 und die originale PI Cam zu sein. Ich habe eine Logitech C920 gekauft und dafür hat jemand einen (Arm)[https://www.thingiverse.com/thing:3111450] designed, welcher direkt mit der X-Achse des Druckers hoch und runter fährt. So hat man gerade den Druckkopf immer im Blick, egal wie hoch der Druck ist.
+Also muss ich viel schreiben, warum eine Webcam sinnvoll ist? Selbst wenn man zu Hause ist, während der Drucker druckt, sitzt man ja nicht die ganze Zeit daneben. Ich kann jetzt immer einfach das Handy zücken und man kurz nachsehen, ob noch alles gut aussieht. Octoprint unterstützt super viele Webcams, besonders beliebt scheinen aber die Logitech C270, die Logitech C920 und die originale PI Cam zu sein. Ich habe eine Logitech C920 gekauft und dafür hat jemand einen [Arm](https://www.thingiverse.com/thing:3111450) designed, welcher direkt mit der X-Achse des Druckers hoch und runter fährt. So hat man gerade den Druckkopf immer im Blick, egal wie hoch der Druck ist.
 
 ### Befestigung direkt an der X-Achse
 
@@ -59,7 +59,7 @@ Einzig die Webcam muss man etwas zerlegen. Hier braucht man einen sehr kleinen S
 ## Mod 3: Manueller Bettausgleich
 
 Der Prusa MK3s hat eigentlich einen Sensor mit dem er den Abstand zwischen Druckkopf und Druckbett misst und Unebenheiten in der Software ausgleicht. In der Theorie klingt das nett, aber ich habe beim Drucken durchaus massive Unterschiede bemerkt zwischen der linken und der rechten Hälfte des Druckbetts.
-Bed Visualizer => Bed Umbau
+
 ### Problem?
 
 Octoprint hat hier ein Plugin, welches die Messwerte des Druckers visualisieren kann und da kann man dann feststellen, dass der Abstand bei mir zwischen dem tiefsten und dem höchsten Punkt 0,5mm ist. Das klingt im normalen Leben nach nichts, wenn aber eine Druckebene nur 0,15mm hat, ist das ein Unterschied von 3 bis 4 Druckebenen! Das Problem ist nun, dass der Prusa MK3s keine manuellen Einstellmöglichkeinten vorsieht.
