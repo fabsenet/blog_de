@@ -16,7 +16,7 @@ In diesem Beitrag sage ich dir, was ich an meinem 3D Drucker (Prusa MK3s) gemodd
 
 Also immer schön der Reihe nach oder einfach hier erstmal als Video:
 
-{% youtube todo %} fM1535x1hQc
+{% youtube fM1535x1hQc %}
 
 ## Mod 1: Octopi / Octoprint
 
@@ -86,7 +86,7 @@ Das klingt im normalen Leben nach nichts, wenn aber eine Druckebene nur 0,15mm h
 
 Aber natürlich hat das schon jemand im Internet gelöst und einen [richtig guten Guide](https://github.com/PrusaOwners/prusaowners/wiki/Bed_Leveling_without_Wave_Springs) geschrieben. Man benötigt 8 Sicherungsmuttern, die man unter das Heizbett schraubt und ersetzt damit die original Abstandshalterhülsen.
 
-{% include image.html file="/assets/2020/prusa-mk3s-mods/druckbett_höhenverstellbar.png" description="Schraube mit Mutter hält das Heizbett statt eine Abstandshülse." %}
+{% include image.html file="/assets/2020/prusa-mk3s-mods/druckbett_höhenverstellbar.jpg" description="Schraube mit Mutter hält das Heizbett statt eine Abstandshülse." %}
 
 Nun ist man in der Lage durch drehen der Schrauben die Höhe des Betts sehr genau einzustellen. Es gibt hier wieder ein Octoprintplugin ["Prusa Leveling Guide"](https://plugins.octoprint.org/plugins/PrusaLevelingGuide/), welches einem sogar anzeigen kann, wie weit man jede einzelne Schraube genau drehen muss.
 
