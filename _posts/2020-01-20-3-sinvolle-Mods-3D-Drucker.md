@@ -84,7 +84,7 @@ Das klingt im normalen Leben nach nichts, wenn aber eine Druckebene nur 0,15mm h
 
 ### Lösung mit 8 Schrauben und Guide
 
-Aber natürlich hat das schon jemand im Internet gelöst und einen [richtig guten Guide](https://github.com/PrusaOwners/prusaowners/wiki/Bed_Leveling_without_Wave_Springs) geschrieben. Man benötigt 8 Sicherungsmuttern, die man unter das Heizbett schraubt und ersetzt damit die original Abstandshalterhülsen.
+Aber natürlich hat das schon jemand im Internet gelöst und einen [richtig guten Guide](https://github.com/PrusaOwners/prusaowners/wiki/Bed_Leveling_without_Wave_Springs) geschrieben. Man benötigt [8 Sicherungsmuttern⭐](https://amzn.to/2OuyQBy), die man unter das Heizbett schraubt und ersetzt damit die original Abstandshalterhülsen.
 
 {% include image.html file="/assets/2020/prusa-mk3s-mods/druckbett_höhenverstellbar.jpg" description="Schraube mit Mutter hält das Heizbett statt eine Abstandshülse." %}
 
